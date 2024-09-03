@@ -5,6 +5,12 @@ import numpy as np
 
 import settings as s
 
+import numpy as np
+import torch
+import settings as s
+import torch.nn.functional as F
+import matplotlib.pyplot as plt
+
 
 def look_for_targets(free_space, start, targets, logger=None):
     """Find direction of closest target that can be reached via free tiles.
@@ -27,7 +33,7 @@ def look_for_targets(free_space, start, targets, logger=None):
     dist_so_far = {start: 0}
     best = start
     best_dist = np.sum(np.abs(np.subtract(targets, start)), axis=1).min()
-
+    
     while len(frontier) > 0:
         current = frontier.pop(0)
         # Find distance from current position to all targets, track closest
@@ -73,7 +79,7 @@ def setup(self):
     # While this timer is positive, agent will not hunt/attack opponents
     self.ignore_others_timer = 0
     self.current_round = 0
-
+    
 
 def reset_self(self):
     self.bomb_history = deque([], 5)
@@ -96,9 +102,10 @@ def act(self, game_state):
         reset_self(self)
         self.current_round = game_state["round"]
     # Gather information about the game state
-    arena = game_state['field']
+    arena = game_state['field'] 
     _, score, bombs_left, (x, y) = game_state['self']
     bombs = game_state['bombs']
+    print(bombs)
     bomb_xys = [xy for (xy, t) in bombs]
     others = [xy for (n, s, b, xy) in game_state['others']]
     coins = game_state['coins']
