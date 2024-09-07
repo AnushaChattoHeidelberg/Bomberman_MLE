@@ -1,11 +1,11 @@
 from collections import namedtuple, deque
-
+import torch.optim as optim
 import pickle
 from typing import List
 
 import events as e
 from .callbacks import state_to_features
-from dqn import DQN
+from .dqn import DQN, n_actions
 # This is only an example!
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
@@ -38,6 +38,16 @@ def setup_training(self):
     # Example: Setup an array that will note transition tuples
     # (s, a, r, s')
     self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
+    self.model = DQN(n_actions)
+    self.target_model = DQN(n_actions)
+    self.target_model.load_state_dict(self.model.state_dict())
+    self.optimizer = optim.Adam(self.model.parameters())
+    self.replay_buffer = deque(maxlen=10000)
+    self.batch_size = BATCH_SIZE
+    self.gamma = GAMMA
+    self.epsilon = EPS_START
+    self.epsilon_decay = EPS_DECAY
+    self.epsilon_min = EPS_END
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
@@ -58,7 +68,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
-
+    
     # Idea: Add your own events to hand out rewards
     if ...:
         events.append(PLACEHOLDER_EVENT)
@@ -98,7 +108,13 @@ def reward_from_events(self, events: List[str]) -> int:
     game_rewards = {
         e.COIN_COLLECTED: 1,
         e.KILLED_OPPONENT: 5,
-        PLACEHOLDER_EVENT: -.1  # idea: the custom event is bad
+        e.KILLED_SELF: -10,
+        e.MOVED_DOWN: -0.0001,
+        e.MOVED_LEFT: -0.0001,
+        e.MOVED_RIGHT: -0.0001,
+        e.MOVED_UP: -0.0001,
+        e.WAITED: -0.0002,
+        e.SURVIVED_ROUND: +10,
     }
     reward_sum = 0
     for event in events:

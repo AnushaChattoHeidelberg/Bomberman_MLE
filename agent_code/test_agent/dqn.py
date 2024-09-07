@@ -9,6 +9,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
+from .data import create_input
 
 n_actions = 6 #move in 4 directions,bomb or stay
 n_observations = 289 # this is the pixels on the board, but I am not sure if this is the right approach

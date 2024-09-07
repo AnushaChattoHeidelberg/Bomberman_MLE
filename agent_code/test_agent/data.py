@@ -50,7 +50,7 @@ def create_input(game_state: dict) -> torch.tensor:
 
     # Convert to grayscale
     image = image.mean(dim=0, keepdim=True)
-
+    '''
     # Convert the tensor to a NumPy array
     image_np = image.squeeze().cpu().numpy()
 
@@ -58,5 +58,6 @@ def create_input(game_state: dict) -> torch.tensor:
     plt.imshow(image_np, cmap='gray')
     plt.axis('off')  # Turn off axis labels
     plt.savefig('mean_image.png', bbox_inches='tight', pad_inches=0)
+    '''
     
     return image
