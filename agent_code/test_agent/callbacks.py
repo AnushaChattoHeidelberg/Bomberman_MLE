@@ -4,7 +4,7 @@ import random
 import torch
 import numpy as np
 from .data import create_input
-from .train import EPS_END,EPS_DECAY
+from .train import EPS_END,EPS_DECAY,BATCH_SIZE,GAMMA,EPS_START
 from .dqn import DQN
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
@@ -24,6 +24,11 @@ def setup(self):
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
     if self.train or not os.path.isfile("my-saved-model.pt"):
+        self.batch_size = BATCH_SIZE
+        self.gamma = GAMMA
+        self.epsilon = EPS_START
+        self.epsilon_decay = EPS_DECAY
+        self.epsilon_min = EPS_END
         self.logger.info("Setting up model from scratch.")
         self.model = DQN(n_actions=6)  # Correctly initialize DQN
     else:
@@ -57,7 +62,7 @@ def act(self, game_state: dict) -> str:
 
     if self.epsilon > EPS_END:
         self.epsilon *= EPS_DECAY
-
+    print(action)
     return action
 '''
 def select_action(self, state):

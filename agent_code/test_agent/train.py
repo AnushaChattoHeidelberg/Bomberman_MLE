@@ -45,11 +45,7 @@ def setup_training(self):
     self.target_model.load_state_dict(self.model.state_dict())
     self.optimizer = optim.Adam(self.model.parameters())
     self.replay_buffer = deque(maxlen=10000)
-    self.batch_size = BATCH_SIZE
-    self.gamma = GAMMA
-    self.epsilon = EPS_START
-    self.epsilon_decay = EPS_DECAY
-    self.epsilon_min = EPS_END
+
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
