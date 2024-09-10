@@ -30,10 +30,10 @@ def setup(self):
         self.epsilon_decay = EPS_DECAY
         self.epsilon_min = EPS_END
         self.logger.info("Setting up model from scratch.")
-        self.model = DQN(n_actions=6)  # Correctly initialize DQN
+        self.model = DQN(n_actions=6)  
     else:
         self.logger.info("Loading model from saved state.")
-        self.model = DQN(n_actions=6)  # Correctly initialize DQN
+        self.model = DQN(n_actions=6)  
         self.model.load_state_dict(torch.load("my-saved-model.pt"))
 
 
@@ -48,10 +48,19 @@ def act(self, game_state: dict) -> str:
     """
     # todo Exploration vs exploitation
     #random_prob = .1
+    '''
+    self.logger.debug("Choosing action purely at random (exploration).")
+    print("i am here going random")
+    action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+    print(action)
+    '''
     if self.train and random.random() < self.epsilon:
         self.logger.debug("Choosing action purely at random (exploration).")
+        print("i am here going random")
         action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+        #print(action)
     else:
+        print("i am here using model")
         self.logger.debug("Querying model for action (exploitation).")
         state_tensor = create_input(game_state).unsqueeze(0)  # Add batch dimension
         self.model.eval()  # Set model to evaluation mode
@@ -59,10 +68,11 @@ def act(self, game_state: dict) -> str:
             q_values = self.model(state_tensor)
         action_idx = q_values.argmax().item()
         action = ACTIONS[action_idx]
-
+        print(action)
     if self.epsilon > EPS_END:
         self.epsilon *= EPS_DECAY
-    print(action)
+        print(self.epsilon)
+       
     return action
 '''
 def select_action(self, state):
