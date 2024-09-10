@@ -1,10 +1,11 @@
 import os
 import pickle
 import random
-
+import torch
 import numpy as np
-
-
+from .data import create_input
+from .train import EPS_END,EPS_DECAY
+from .dqn import DQN
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
 
@@ -24,12 +25,11 @@ def setup(self):
     """
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        weights = np.random.rand(len(ACTIONS))
-        self.model = weights / weights.sum()
+        self.model = DQN(n_actions=6)  # Correctly initialize DQN
     else:
         self.logger.info("Loading model from saved state.")
-        with open("my-saved-model.pt", "rb") as file:
-            self.model = pickle.load(file)
+        self.model = DQN(n_actions=6)  # Correctly initialize DQN
+        self.model.load_state_dict(torch.load("my-saved-model.pt"))
 
 
 def act(self, game_state: dict) -> str:
@@ -42,16 +42,34 @@ def act(self, game_state: dict) -> str:
     :return: The action to take as a string.
     """
     # todo Exploration vs exploitation
-    random_prob = .1
-    if self.train and random.random() < random_prob:
-        self.logger.debug("Choosing action purely at random.")
-        # 80%: walk in any direction. 10% wait. 10% bomb.
-        return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+    #random_prob = .1
+    if self.train and random.random() < self.epsilon:
+        self.logger.debug("Choosing action purely at random (exploration).")
+        action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+    else:
+        self.logger.debug("Querying model for action (exploitation).")
+        state_tensor = create_input(game_state).unsqueeze(0)  # Add batch dimension
+        self.model.eval()  # Set model to evaluation mode
+        with torch.no_grad():
+            q_values = self.model(state_tensor)
+        action_idx = q_values.argmax().item()
+        action = ACTIONS[action_idx]
 
-    self.logger.debug("Querying model for action.")
-    return np.random.choice(ACTIONS, p=self.model)
+    if self.epsilon > EPS_END:
+        self.epsilon *= EPS_DECAY
 
+    return action
+'''
+def select_action(self, state):
+    if random.random() < self.epsilon:
+        return random.choice(ACTIONS)  # Choose a random action from the list
+    else:
+        with torch.no_grad():
+            action_index = self.model(state).argmax().item()  # Get the index of the best action
+            return ACTIONS[action_index]  # Return the corresponding action
+'''
 
+'''
 def state_to_features(game_state: dict) -> np.array:
     """
     *This is not a required function, but an idea to structure your code.*
@@ -77,3 +95,4 @@ def state_to_features(game_state: dict) -> np.array:
     stacked_channels = np.stack(channels)
     # and return them as a vector
     return stacked_channels.reshape(-1)
+'''

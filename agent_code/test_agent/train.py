@@ -2,10 +2,12 @@ from collections import namedtuple, deque
 import torch.optim as optim
 import pickle
 from typing import List
-
+import torch
+import torch.nn.functional as F
+import random
 import events as e
-from .callbacks import state_to_features
 from .dqn import DQN, n_actions
+from .data import create_input
 # This is only an example!
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
@@ -49,7 +51,6 @@ def setup_training(self):
     self.epsilon_decay = EPS_DECAY
     self.epsilon_min = EPS_END
 
-
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
     Called once per step to allow intermediate rewards based on game events.
@@ -70,11 +71,26 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
     
     # Idea: Add your own events to hand out rewards
-    if ...:
+    '''if ...:
         events.append(PLACEHOLDER_EVENT)
-
     # state_to_features is defined in callbacks.py
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
+    '''
+    if old_game_state is None:
+        return
+    else:
+        # Compute the reward based on the occurred events
+        reward = reward_from_events(self, events)
+
+        # Convert game states to the feature representation used by the model
+        old_state_features = create_input(old_game_state)  
+        new_state_features = create_input(new_game_state)
+
+        # Create a transition and store it
+        self.transitions.append(Transition(old_state_features, self_action, new_state_features, reward))
+
+        # Optionally, you may also store this experience directly in the replay buffer for training
+        self.store_experience(old_state_features, self_action, reward, new_state_features, False)  # 'False' for not done
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -91,11 +107,9 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     :param self: The same object that is passed to all of your callbacks.
     """
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
+    self.transitions.append(Transition(create_input(last_game_state), last_action, None, reward_from_events(self, events)))
+    torch.save(self.model.state_dict(), "my-saved-model.pt")  # Save model parameters
 
-    # Store the model
-    with open("my-saved-model.pt", "wb") as file:
-        pickle.dump(self.model, file)
 
 
 def reward_from_events(self, events: List[str]) -> int:
@@ -122,3 +136,53 @@ def reward_from_events(self, events: List[str]) -> int:
             reward_sum += game_rewards[event]
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
+
+
+def store_experience(self, state, action, reward, next_state, done):
+    self.replay_buffer.append((state, action, reward, next_state, done))
+
+
+def train(self):
+        if len(self.replay_buffer) < self.batch_size:
+            return  
+        
+        # Sample a batch of transitions
+        batch = random.sample(self.replay_buffer, self.batch_size)
+        states, actions, rewards, next_states, dones = zip(*batch)
+
+        # Convert to tensors
+        states = torch.stack(states)
+        actions = torch.tensor(actions).unsqueeze(1)  
+        rewards = torch.tensor(rewards, dtype=torch.float32)
+        next_states = torch.stack(next_states)
+        dones = torch.tensor(dones, dtype=torch.float32)
+
+        # Compute Q values
+        q_values = self.model(states).gather(1, actions).squeeze(1)  # Q(s, a)
+
+        # Compute target Q values
+        with torch.no_grad():
+            next_q_values = self.target_model(next_states).max(1)[0]  # max_a' Q(s', a')
+            target_q_values = rewards + self.gamma * next_q_values * (1 - dones)  
+
+        # Compute the loss
+        loss = F.mse_loss(q_values, target_q_values)
+
+        # Perform backpropagation
+        self.optimizer.zero_grad()
+        loss.backward()
+
+        # Optional: Gradient clipping for stability
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
+
+        # Update model parameters
+        self.optimizer.step()
+
+        # Epsilon decay
+        if self.epsilon > self.epsilon_min:
+            self.epsilon *= self.epsilon_decay
+
+def update_target_model(self):
+    # Perform soft update of target network
+    for target_param, param in zip(self.target_model.parameters(), self.model.parameters()):
+        target_param.data.copy_(TAU * param.data + (1.0 - TAU) * target_param.data)

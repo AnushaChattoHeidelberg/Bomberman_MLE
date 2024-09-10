@@ -150,7 +150,7 @@ def act(self, game_state):
     which is a dictionary. Consult 'get_state_for_agent' in environment.py to see
     what it contains.
     """
-    create_input(game_state)
+    #create_input(game_state)
     self.logger.info('Picking action according to rule set')
     # Check if we are in a different round
     if game_state["round"] != self.current_round:
@@ -160,7 +160,7 @@ def act(self, game_state):
     arena = game_state['field'] 
     _, score, bombs_left, (x, y) = game_state['self']
     bombs = game_state['bombs']
-    print(bombs)
+    
     bomb_xys = [xy for (xy, t) in bombs]
     others = [xy for (n, s, b, xy) in game_state['others']]
     coins = game_state['coins']

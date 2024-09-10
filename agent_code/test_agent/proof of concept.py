@@ -79,7 +79,7 @@ class Agent:
 # Example usage
 agent = Agent(n_actions=6)
 
-# Assuming we have a function to get the current state and perform an action
+# Assuming  have a function to get the current state and perform an action
 for episode in range(1000):
     state = get_initial_state()
     done = False

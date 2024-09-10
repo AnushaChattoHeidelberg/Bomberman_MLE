@@ -1,0 +1,9 @@
+2024-09-10 21:09:11,251 [test_agent_code] INFO: Setting up model from scratch.
+2024-09-10 21:09:11,839 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-10 21:09:11,933 [test_agent_wrapper] ERROR: 'types.SimpleNamespace' object has no attribute 'epsilon'
+Traceback (most recent call last):
+  File "/home/anushac/Documents/projects/Bomberman_MLE/agents.py", line 248, in process_event
+    event_result = getattr(module, event_name)(self.fake_self, *event_args)
+  File "/home/anushac/Documents/projects/Bomberman_MLE/agent_code/test_agent/callbacks.py", line 58, in act
+    if self.epsilon > EPS_END:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'epsilon'
