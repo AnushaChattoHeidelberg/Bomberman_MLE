@@ -54,6 +54,7 @@ def act(self, game_state: dict) -> str:
     action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
     print(action)
     '''
+    print(self.train)
     if self.train and random.random() < self.epsilon:
         self.logger.debug("Choosing action purely at random (exploration).")
         print("i am here going random")

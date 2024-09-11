@@ -86,7 +86,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         self.transitions.append(Transition(old_state_features, self_action, new_state_features, reward))
 
         # Optionally, you may also store this experience directly in the replay buffer for training
-        self.store_experience(old_state_features, self_action, reward, new_state_features, False)  # 'False' for not done
+        #self.store_experience(old_state_features, self_action, reward, new_state_features, False)  # 'False' for not done
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
