@@ -7,8 +7,7 @@ from .data import create_input
 from .train import EPS_END,EPS_DECAY,BATCH_SIZE,GAMMA,EPS_START
 from .dqn import DQN
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
-
-
+from ..rule_based_agent.callbacks import act as rule_act
 def setup(self):
     """
     Setup your code. This is called once when loading each agent.
@@ -54,12 +53,18 @@ def act(self, game_state: dict) -> str:
     action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
     print(action)
     '''
-    print(self.train)
+    #print(self.train)
     if self.train and random.random() < self.epsilon:
+        
         self.logger.debug("Choosing action purely at random (exploration).")
-        print("i am here going random")
-        action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+        #print("i am here going random")
+        action = np.random.choice(ACTIONS, p=[.21, .21, .21, .21, .11, .05])
         #print(action)
+        '''
+        #following the rule based agent list of valid actions
+        action=rule_act(game_state)
+        print(action)
+        '''
     else:
         print("i am here using model")
         self.logger.debug("Querying model for action (exploitation).")
@@ -70,9 +75,10 @@ def act(self, game_state: dict) -> str:
         action_idx = q_values.argmax().item()
         action = ACTIONS[action_idx]
         print(action)
-    if self.epsilon > EPS_END:
-        self.epsilon *= EPS_DECAY
-        print(self.epsilon)
+    if self.train:   
+        if self.epsilon > EPS_END:
+            self.epsilon *= EPS_DECAY
+        #print(self.epsilon)
        
     return action
 '''

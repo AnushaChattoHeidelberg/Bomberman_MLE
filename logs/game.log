@@ -1,808 +1,419 @@
-2024-09-11 14:07:16,410 [BombeRLeWorld] INFO: Initializing game world
-2024-09-11 14:07:29,939 [BombeRLeWorld] INFO: STARTING ROUND #1
-2024-09-11 14:07:29,977 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:29,991 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:29,991 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:29,991 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
-2024-09-11 14:07:29,992 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:29,992 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:29,992 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,071 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:30,077 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:30,077 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,077 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,077 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,078 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:30,078 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,172 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:30,177 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,177 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,177 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:30,177 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,177 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (13, 15)
-2024-09-11 14:07:30,178 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:30,178 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,271 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:30,278 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:30,278 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,278 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,279 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,279 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:30,279 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,381 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:30,387 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:30,387 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,387 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,388 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,388 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:30,388 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,472 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:30,478 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:30,479 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,479 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:30,479 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,479 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:30,479 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,572 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:30,578 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:30,578 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,578 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,579 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,579 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:30,579 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,579 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (13, 15) explodes
-2024-09-11 14:07:30,686 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:30,696 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:30,697 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,697 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (1, 3)
-2024-09-11 14:07:30,698 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:30,699 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,699 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,700 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,795 [BombeRLeWorld] INFO: STARTING STEP 9
-2024-09-11 14:07:30,804 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:30,805 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,805 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:30,806 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,806 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:30,806 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,881 [BombeRLeWorld] INFO: STARTING STEP 10
-2024-09-11 14:07:30,887 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:30,888 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,888 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:30,888 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,888 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (15, 13)
-2024-09-11 14:07:30,889 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:30,889 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:30,998 [BombeRLeWorld] INFO: STARTING STEP 11
-2024-09-11 14:07:31,012 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:31,012 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:31,013 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:31,013 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:31,014 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
-2024-09-11 14:07:31,014 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:31,091 [BombeRLeWorld] INFO: STARTING STEP 12
-2024-09-11 14:07:31,104 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:31,104 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:31,104 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:31,105 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:31,105 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
-2024-09-11 14:07:31,105 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:31,106 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (1, 3) explodes
-2024-09-11 14:07:31,106 [BombeRLeWorld] INFO: Coin found at (1, 5)
-2024-09-11 14:07:31,107 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:31,107 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:31,107 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2024-09-11 14:07:36,285 [BombeRLeWorld] INFO: STARTING ROUND #2
-2024-09-11 14:07:36,395 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:36,403 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:36,403 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,404 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:36,404 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,405 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:36,405 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,491 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:36,496 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:36,496 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,496 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:36,496 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,497 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (1, 2)
-2024-09-11 14:07:36,497 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:36,497 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,595 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:36,601 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:36,601 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,601 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:36,602 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,602 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:36,602 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,696 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:36,702 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:36,702 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,702 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:36,702 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,702 [BombeRLeWorld] INFO: Agent <random_agent> drops bomb at (3, 15)
-2024-09-11 14:07:36,703 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:36,703 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,785 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:36,791 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:36,791 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,791 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:36,791 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,791 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:36,791 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,792 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (13, 15)
-2024-09-11 14:07:36,889 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:36,894 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:36,895 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,895 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:36,895 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,895 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:36,895 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,895 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (1, 2) explodes
-2024-09-11 14:07:36,984 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:36,990 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:36,990 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,990 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:36,990 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:36,990 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:36,990 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:37,084 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:37,090 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:37,090 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:37,090 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:37,090 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:37,090 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:37,091 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:37,091 [BombeRLeWorld] INFO: Agent <random_agent>'s bomb at (3, 15) explodes
-2024-09-11 14:07:37,091 [BombeRLeWorld] INFO: Agent <random_agent> blown up by own bomb
-2024-09-11 14:07:37,185 [BombeRLeWorld] INFO: STARTING STEP 9
-2024-09-11 14:07:37,190 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:37,190 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:37,190 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:37,190 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:37,191 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (13, 15) explodes
-2024-09-11 14:07:37,191 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:37,192 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:37,192 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
-2024-09-11 14:07:40,146 [BombeRLeWorld] INFO: STARTING ROUND #3
-2024-09-11 14:07:40,243 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:40,248 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,249 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,249 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,249 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,249 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:40,249 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,344 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:40,349 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,349 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,349 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:40,349 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,349 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (14, 1)
-2024-09-11 14:07:40,350 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:40,350 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,444 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:40,450 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:40,450 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,450 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:40,450 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,450 [BombeRLeWorld] INFO: Agent <random_agent> drops bomb at (1, 1)
-2024-09-11 14:07:40,451 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:40,451 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,544 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:40,550 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:40,550 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,550 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:40,550 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,551 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,551 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,647 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:40,654 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,655 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,655 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:40,655 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,656 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:40,656 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,745 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:40,750 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:40,750 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,751 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:40,751 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,751 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:40,751 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,751 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (14, 1) explodes
-2024-09-11 14:07:40,845 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:40,850 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,850 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,851 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,851 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,851 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:40,851 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,851 [BombeRLeWorld] INFO: Agent <random_agent>'s bomb at (1, 1) explodes
-2024-09-11 14:07:40,852 [BombeRLeWorld] INFO: Agent <random_agent> blown up by own bomb
-2024-09-11 14:07:40,946 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:40,951 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:40,951 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:40,951 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (1, 14)
-2024-09-11 14:07:40,951 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:40,951 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,046 [BombeRLeWorld] INFO: STARTING STEP 9
-2024-09-11 14:07:41,051 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:41,051 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,051 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:41,051 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,147 [BombeRLeWorld] INFO: STARTING STEP 10
-2024-09-11 14:07:41,151 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:41,151 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,152 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:41,152 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,152 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (15, 2)
-2024-09-11 14:07:41,247 [BombeRLeWorld] INFO: STARTING STEP 11
-2024-09-11 14:07:41,254 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:41,254 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,254 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:41,254 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,346 [BombeRLeWorld] INFO: STARTING STEP 12
-2024-09-11 14:07:41,353 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:41,353 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,353 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:41,353 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:41,354 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (1, 14) explodes
-2024-09-11 14:07:41,354 [BombeRLeWorld] INFO: Coin found at (1, 11)
-2024-09-11 14:07:41,354 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:41,354 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:41,354 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
-2024-09-11 14:07:43,504 [BombeRLeWorld] INFO: STARTING ROUND #4
-2024-09-11 14:07:43,602 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:43,608 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:43,608 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,608 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:43,608 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,608 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:43,608 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,703 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:43,708 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:43,708 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,708 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:43,709 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,709 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (2, 15)
-2024-09-11 14:07:43,709 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:43,709 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,807 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:43,813 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:43,813 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,813 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:43,813 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,814 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:43,814 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,903 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:43,909 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:43,909 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,910 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:43,910 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:43,910 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (1, 2)
-2024-09-11 14:07:43,910 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:43,910 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,003 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:44,009 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:44,009 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,009 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:44,009 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,010 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:44,010 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,103 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:44,109 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:44,109 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,109 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:44,109 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,110 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:44,110 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,110 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (2, 15) explodes
-2024-09-11 14:07:44,110 [BombeRLeWorld] INFO: Coin found at (5, 15)
-2024-09-11 14:07:44,204 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:44,209 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:44,210 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,210 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:44,210 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,210 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:44,210 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,305 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:44,311 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:44,311 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,311 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:44,311 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,311 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:44,312 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:44,312 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (1, 2) explodes
-2024-09-11 14:07:44,312 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:44,312 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:44,312 [BombeRLeWorld] INFO: WRAPPING UP ROUND #4
-2024-09-11 14:07:47,161 [BombeRLeWorld] INFO: STARTING ROUND #5
-2024-09-11 14:07:47,274 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:47,282 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:47,282 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,283 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:47,283 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,283 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:47,283 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,356 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:47,361 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:47,362 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,362 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (2, 15)
-2024-09-11 14:07:47,362 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:47,362 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,362 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:47,362 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,461 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:47,466 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:47,467 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,467 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:47,467 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,467 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (14, 1)
-2024-09-11 14:07:47,467 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:47,467 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,561 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:47,566 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:47,567 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,567 [BombeRLeWorld] INFO: Agent <random_agent> drops bomb at (2, 1)
-2024-09-11 14:07:47,567 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:47,567 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,567 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:47,567 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,663 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:47,668 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:47,669 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,669 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:47,669 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,669 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:47,669 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,757 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:47,763 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:47,763 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,763 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:47,763 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,763 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:47,764 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,764 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (2, 15) explodes
-2024-09-11 14:07:47,857 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:47,863 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:47,863 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,863 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:47,863 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,863 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:47,863 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:47,864 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (14, 1) explodes
-2024-09-11 14:07:47,864 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:47,864 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:47,864 [BombeRLeWorld] INFO: WRAPPING UP ROUND #5
-2024-09-11 14:07:49,905 [BombeRLeWorld] INFO: STARTING ROUND #6
-2024-09-11 14:07:50,008 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:50,013 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:50,014 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,014 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:50,014 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,014 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:50,014 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,109 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:50,114 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:50,114 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,114 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (14, 15)
-2024-09-11 14:07:50,114 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:50,114 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,115 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:50,115 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,210 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:50,216 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:50,216 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,216 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (2, 15)
-2024-09-11 14:07:50,216 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:50,217 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,217 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:50,217 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,308 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:50,314 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:50,314 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,315 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:50,315 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,315 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:50,315 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,409 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:50,414 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:50,414 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,414 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:50,415 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,415 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:50,415 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,508 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:50,515 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:50,515 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,515 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:50,515 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,515 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:50,516 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,516 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (14, 15) explodes
-2024-09-11 14:07:50,516 [BombeRLeWorld] INFO: Coin found at (13, 15)
-2024-09-11 14:07:50,516 [BombeRLeWorld] INFO: Coin found at (12, 15)
-2024-09-11 14:07:50,610 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:50,615 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:50,615 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,616 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:50,616 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,616 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:50,616 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:50,616 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (2, 15) explodes
-2024-09-11 14:07:50,616 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:50,617 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:50,617 [BombeRLeWorld] INFO: WRAPPING UP ROUND #6
-2024-09-11 14:07:52,261 [BombeRLeWorld] INFO: STARTING ROUND #7
-2024-09-11 14:07:52,362 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:52,368 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:52,368 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,368 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:52,368 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,369 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:52,369 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,458 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:52,463 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:52,463 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,463 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:52,463 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,464 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (2, 15)
-2024-09-11 14:07:52,464 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:52,464 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,563 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:52,569 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:52,569 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,569 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:52,569 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,570 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:52,570 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,662 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:52,668 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:52,668 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,669 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:52,669 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,669 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:52,669 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,763 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:52,769 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:52,769 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,769 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:52,770 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,770 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:52,770 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,770 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (15, 14)
-2024-09-11 14:07:52,878 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:52,890 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:52,890 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,891 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:52,891 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,891 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
-2024-09-11 14:07:52,891 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,892 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (2, 15) explodes
-2024-09-11 14:07:52,982 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:52,993 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:52,993 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,994 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:52,994 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:52,994 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.01s.
-2024-09-11 14:07:52,994 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,082 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:53,089 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:53,090 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,090 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:53,090 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,090 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:53,091 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,177 [BombeRLeWorld] INFO: STARTING STEP 9
-2024-09-11 14:07:53,186 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
-2024-09-11 14:07:53,186 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,187 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:53,187 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,187 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:53,187 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:53,187 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (15, 14) explodes
-2024-09-11 14:07:53,188 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:53,188 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:53,188 [BombeRLeWorld] INFO: WRAPPING UP ROUND #7
-2024-09-11 14:07:54,643 [BombeRLeWorld] INFO: STARTING ROUND #8
-2024-09-11 14:07:54,739 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:54,745 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:54,745 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,745 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:54,746 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,746 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:54,746 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,841 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:54,848 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:54,848 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,848 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:54,848 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,848 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (1, 14)
-2024-09-11 14:07:54,849 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:54,849 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,936 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:54,942 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:54,942 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,942 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:54,942 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:54,942 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:54,942 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,036 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:55,042 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:55,042 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,042 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:55,042 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,042 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (15, 1)
-2024-09-11 14:07:55,043 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:55,043 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,136 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:55,141 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:55,141 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,142 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:55,142 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,142 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:55,142 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,236 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:55,242 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:55,242 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,242 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:55,243 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,243 [BombeRLeWorld] INFO: Agent <random_agent> drops bomb at (15, 14)
-2024-09-11 14:07:55,243 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:55,243 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,243 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (1, 14) explodes
-2024-09-11 14:07:55,243 [BombeRLeWorld] INFO: Coin found at (1, 13)
-2024-09-11 14:07:55,337 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:55,343 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:55,343 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,343 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:55,344 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,344 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:55,344 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,437 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:55,443 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:55,443 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,443 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:55,443 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,443 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:55,444 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:55,444 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (15, 1) explodes
-2024-09-11 14:07:55,444 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:55,444 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:55,445 [BombeRLeWorld] INFO: WRAPPING UP ROUND #8
-2024-09-11 14:07:56,992 [BombeRLeWorld] INFO: STARTING ROUND #9
-2024-09-11 14:07:57,091 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:07:57,096 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:07:57,096 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,096 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:57,097 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,097 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:57,097 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,191 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:07:57,196 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,196 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,196 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,196 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,197 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:57,197 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,197 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (15, 14)
-2024-09-11 14:07:57,295 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:07:57,301 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:07:57,302 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,302 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:57,302 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,302 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:57,302 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,396 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:07:57,402 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:57,402 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,403 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:57,403 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,403 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:57,403 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,497 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:07:57,502 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,503 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,503 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:57,503 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,503 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,503 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,592 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:07:57,598 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,598 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,598 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,598 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,598 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:57,599 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,599 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (15, 14) explodes
-2024-09-11 14:07:57,693 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:07:57,698 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action None in 0.00s.
-2024-09-11 14:07:57,698 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,698 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:57,698 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,698 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (15, 1)
-2024-09-11 14:07:57,699 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:57,699 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,793 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:07:57,798 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:57,798 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,799 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,799 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,799 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:57,799 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,908 [BombeRLeWorld] INFO: STARTING STEP 9
-2024-09-11 14:07:57,916 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:57,917 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,917 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:07:57,917 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,918 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:57,918 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:57,996 [BombeRLeWorld] INFO: STARTING STEP 10
-2024-09-11 14:07:58,001 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:07:58,001 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:58,002 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:07:58,002 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:58,002 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (14, 15)
-2024-09-11 14:07:58,002 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:07:58,002 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:58,093 [BombeRLeWorld] INFO: STARTING STEP 11
-2024-09-11 14:07:58,100 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:58,100 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:07:58,101 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:07:58,101 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:07:58,101 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:07:58,101 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:07:58,101 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (15, 1) explodes
-2024-09-11 14:07:58,102 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:07:58,102 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:07:58,102 [BombeRLeWorld] INFO: WRAPPING UP ROUND #9
-2024-09-11 14:08:01,649 [BombeRLeWorld] INFO: STARTING ROUND #10
-2024-09-11 14:08:01,747 [BombeRLeWorld] INFO: STARTING STEP 1
-2024-09-11 14:08:01,752 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:01,753 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,753 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:01,753 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,753 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:01,753 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,847 [BombeRLeWorld] INFO: STARTING STEP 2
-2024-09-11 14:08:01,852 [BombeRLeWorld] INFO: Agent <random_agent> chose action UP in 0.00s.
-2024-09-11 14:08:01,852 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,852 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:08:01,852 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,853 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (14, 15)
-2024-09-11 14:08:01,853 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:08:01,853 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,954 [BombeRLeWorld] INFO: STARTING STEP 3
-2024-09-11 14:08:01,961 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:08:01,961 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,962 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:01,962 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:01,962 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:01,962 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,047 [BombeRLeWorld] INFO: STARTING STEP 4
-2024-09-11 14:08:02,054 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:08:02,054 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,055 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,055 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,055 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:02,055 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,147 [BombeRLeWorld] INFO: STARTING STEP 5
-2024-09-11 14:08:02,154 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:02,154 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,155 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:08:02,155 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,155 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,155 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,248 [BombeRLeWorld] INFO: STARTING STEP 6
-2024-09-11 14:08:02,255 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:02,255 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,255 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:08:02,255 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,255 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,256 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,256 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (14, 15) explodes
-2024-09-11 14:08:02,348 [BombeRLeWorld] INFO: STARTING STEP 7
-2024-09-11 14:08:02,354 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
-2024-09-11 14:08:02,354 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,354 [BombeRLeWorld] INFO: Agent <random_agent> drops bomb at (1, 14)
-2024-09-11 14:08:02,354 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,355 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,355 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:08:02,355 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,453 [BombeRLeWorld] INFO: STARTING STEP 8
-2024-09-11 14:08:02,459 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:02,460 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,460 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:08:02,460 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,461 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:02,461 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,553 [BombeRLeWorld] INFO: STARTING STEP 9
-2024-09-11 14:08:02,559 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,559 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,559 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,559 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,560 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:02,560 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,657 [BombeRLeWorld] INFO: STARTING STEP 10
-2024-09-11 14:08:02,662 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:02,663 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,663 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,663 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,663 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:08:02,663 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,663 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (15, 11)
-2024-09-11 14:08:02,754 [BombeRLeWorld] INFO: STARTING STEP 11
-2024-09-11 14:08:02,762 [BombeRLeWorld] INFO: Agent <test_agent> chose action WAIT in 0.00s.
-2024-09-11 14:08:02,762 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,762 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:02,763 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,763 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
-2024-09-11 14:08:02,763 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,763 [BombeRLeWorld] INFO: Agent <random_agent>'s bomb at (1, 14) explodes
-2024-09-11 14:08:02,763 [BombeRLeWorld] INFO: Coin found at (1, 13)
-2024-09-11 14:08:02,764 [BombeRLeWorld] INFO: Agent <random_agent> blown up by own bomb
-2024-09-11 14:08:02,854 [BombeRLeWorld] INFO: STARTING STEP 12
-2024-09-11 14:08:02,861 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
-2024-09-11 14:08:02,861 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,861 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:02,862 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,965 [BombeRLeWorld] INFO: STARTING STEP 13
-2024-09-11 14:08:02,977 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
-2024-09-11 14:08:02,977 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:02,978 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:02,978 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,054 [BombeRLeWorld] INFO: STARTING STEP 14
-2024-09-11 14:08:03,061 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:03,061 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,062 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
-2024-09-11 14:08:03,062 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,062 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (15, 11) explodes
-2024-09-11 14:08:03,156 [BombeRLeWorld] INFO: STARTING STEP 15
-2024-09-11 14:08:03,163 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
-2024-09-11 14:08:03,164 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,164 [BombeRLeWorld] INFO: Agent <test_agent> chose action DOWN in 0.00s.
-2024-09-11 14:08:03,164 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,265 [BombeRLeWorld] INFO: STARTING STEP 16
-2024-09-11 14:08:03,272 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:03,272 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,272 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,272 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,356 [BombeRLeWorld] INFO: STARTING STEP 17
-2024-09-11 14:08:03,362 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,362 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,363 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,363 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,461 [BombeRLeWorld] INFO: STARTING STEP 18
-2024-09-11 14:08:03,468 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,469 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,469 [BombeRLeWorld] INFO: Agent <test_agent> chose action BOMB in 0.00s.
-2024-09-11 14:08:03,469 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,469 [BombeRLeWorld] INFO: Agent <test_agent> drops bomb at (1, 1)
-2024-09-11 14:08:03,570 [BombeRLeWorld] INFO: STARTING STEP 19
-2024-09-11 14:08:03,577 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,577 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,578 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,578 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,676 [BombeRLeWorld] INFO: STARTING STEP 20
-2024-09-11 14:08:03,682 [BombeRLeWorld] INFO: Agent <test_agent> chose action UP in 0.00s.
-2024-09-11 14:08:03,682 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,683 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
-2024-09-11 14:08:03,683 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,683 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (10, 15)
-2024-09-11 14:08:03,786 [BombeRLeWorld] INFO: STARTING STEP 21
-2024-09-11 14:08:03,795 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
-2024-09-11 14:08:03,795 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,795 [BombeRLeWorld] INFO: Agent <test_agent> chose action LEFT in 0.00s.
-2024-09-11 14:08:03,795 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,852 [BombeRLeWorld] INFO: STARTING STEP 22
-2024-09-11 14:08:03,860 [BombeRLeWorld] INFO: Agent <test_agent> chose action RIGHT in 0.00s.
-2024-09-11 14:08:03,860 [BombeRLeWorld] INFO: Agent <test_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,861 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
-2024-09-11 14:08:03,861 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
-2024-09-11 14:08:03,861 [BombeRLeWorld] INFO: Agent <test_agent>'s bomb at (1, 1) explodes
-2024-09-11 14:08:03,861 [BombeRLeWorld] INFO: Coin found at (1, 3)
-2024-09-11 14:08:03,862 [BombeRLeWorld] INFO: Agent <test_agent> blown up by own bomb
-2024-09-11 14:08:03,862 [BombeRLeWorld] INFO: No training agent left alive, wrap up round
-2024-09-11 14:08:03,862 [BombeRLeWorld] INFO: WRAPPING UP ROUND #10
-2024-09-11 14:08:05,311 [BombeRLeWorld] INFO: SHUT DOWN
+2024-09-11 14:43:58,303 [BombeRLeWorld] INFO: Initializing game world
+2024-09-11 14:44:08,090 [BombeRLeWorld] INFO: STARTING ROUND #1
+2024-09-11 14:44:08,148 [BombeRLeWorld] INFO: STARTING STEP 1
+2024-09-11 14:44:08,357 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
+2024-09-11 14:44:08,357 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,358 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:08,358 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:08,359 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
+2024-09-11 14:44:08,359 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,360 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.18s.
+2024-09-11 14:44:08,360 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:08,403 [BombeRLeWorld] INFO: STARTING STEP 2
+2024-09-11 14:44:08,572 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.10s.
+2024-09-11 14:44:08,572 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:08,573 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.01s.
+2024-09-11 14:44:08,574 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,574 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (2, 15)
+2024-09-11 14:44:08,574 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
+2024-09-11 14:44:08,575 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,575 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.05s.
+2024-09-11 14:44:08,575 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:08,618 [BombeRLeWorld] INFO: STARTING STEP 3
+2024-09-11 14:44:08,738 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.01s.
+2024-09-11 14:44:08,739 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,740 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:08,741 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:08,742 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
+2024-09-11 14:44:08,742 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,743 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:08,743 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:08,796 [BombeRLeWorld] INFO: STARTING STEP 4
+2024-09-11 14:44:08,873 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
+2024-09-11 14:44:08,874 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,874 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:08,874 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,875 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.05s.
+2024-09-11 14:44:08,875 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:08,876 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:08,876 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:08,934 [BombeRLeWorld] INFO: STARTING STEP 5
+2024-09-11 14:44:08,997 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:08,997 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:08,998 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
+2024-09-11 14:44:08,998 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,998 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.03s.
+2024-09-11 14:44:08,999 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:08,999 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.02s.
+2024-09-11 14:44:08,999 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:09,054 [BombeRLeWorld] INFO: STARTING STEP 6
+2024-09-11 14:44:09,296 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:09,297 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:09,297 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.00s.
+2024-09-11 14:44:09,298 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:09,299 [BombeRLeWorld] INFO: Agent <random_agent> chose action DOWN in 0.00s.
+2024-09-11 14:44:09,299 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:09,300 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.22s.
+2024-09-11 14:44:09,300 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:09,301 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (2, 15) explodes
+2024-09-11 14:44:09,356 [BombeRLeWorld] INFO: STARTING STEP 7
+2024-09-11 14:44:10,015 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.34s.
+2024-09-11 14:44:10,015 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:10,016 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.31s.
+2024-09-11 14:44:10,016 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:10,016 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
+2024-09-11 14:44:10,017 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,017 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:10,018 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,062 [BombeRLeWorld] INFO: STARTING STEP 8
+2024-09-11 14:44:10,165 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
+2024-09-11 14:44:10,165 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,165 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:10,166 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:10,166 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
+2024-09-11 14:44:10,166 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,167 [BombeRLeWorld] INFO: Agent <random_agent> drops bomb at (15, 15)
+2024-09-11 14:44:10,168 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.08s.
+2024-09-11 14:44:10,168 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:10,225 [BombeRLeWorld] INFO: STARTING STEP 9
+2024-09-11 14:44:10,274 [BombeRLeWorld] INFO: Agent <random_agent> chose action LEFT in 0.00s.
+2024-09-11 14:44:10,274 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,275 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:10,275 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,275 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.03s.
+2024-09-11 14:44:10,275 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:10,276 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:10,276 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:10,342 [BombeRLeWorld] INFO: STARTING STEP 10
+2024-09-11 14:44:10,379 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.01s.
+2024-09-11 14:44:10,380 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,380 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (1, 13)
+2024-09-11 14:44:10,381 [BombeRLeWorld] INFO: Agent <random_agent> chose action BOMB in 0.00s.
+2024-09-11 14:44:10,382 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,382 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:10,383 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:10,383 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:10,384 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:10,425 [BombeRLeWorld] INFO: STARTING STEP 11
+2024-09-11 14:44:10,685 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
+2024-09-11 14:44:10,685 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,686 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
+2024-09-11 14:44:10,687 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:10,687 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.23s.
+2024-09-11 14:44:10,688 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:10,689 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.02s.
+2024-09-11 14:44:10,689 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:10,733 [BombeRLeWorld] INFO: STARTING STEP 12
+2024-09-11 14:44:11,029 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.27s.
+2024-09-11 14:44:11,030 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,030 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,030 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,030 [BombeRLeWorld] INFO: Agent <random_agent> chose action RIGHT in 0.00s.
+2024-09-11 14:44:11,031 [BombeRLeWorld] INFO: Agent <random_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,031 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,031 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,032 [BombeRLeWorld] INFO: Agent <random_agent>'s bomb at (15, 15) explodes
+2024-09-11 14:44:11,033 [BombeRLeWorld] INFO: Agent <random_agent> blown up by own bomb
+2024-09-11 14:44:11,129 [BombeRLeWorld] INFO: STARTING STEP 13
+2024-09-11 14:44:11,293 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.10s.
+2024-09-11 14:44:11,295 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,296 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.04s.
+2024-09-11 14:44:11,297 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,298 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.02s.
+2024-09-11 14:44:11,299 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,355 [BombeRLeWorld] INFO: STARTING STEP 14
+2024-09-11 14:44:11,435 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
+2024-09-11 14:44:11,437 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,437 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,438 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,438 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.06s.
+2024-09-11 14:44:11,439 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,440 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (1, 13) explodes
+2024-09-11 14:44:11,479 [BombeRLeWorld] INFO: STARTING STEP 15
+2024-09-11 14:44:11,555 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,555 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,556 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.02s.
+2024-09-11 14:44:11,557 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,557 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.05s.
+2024-09-11 14:44:11,558 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,603 [BombeRLeWorld] INFO: STARTING STEP 16
+2024-09-11 14:44:11,638 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,639 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,639 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
+2024-09-11 14:44:11,639 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,640 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,640 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,701 [BombeRLeWorld] INFO: STARTING STEP 17
+2024-09-11 14:44:11,744 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:11,745 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,745 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:11,746 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,747 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
+2024-09-11 14:44:11,748 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,814 [BombeRLeWorld] INFO: STARTING STEP 18
+2024-09-11 14:44:11,915 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:11,916 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:11,916 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
+2024-09-11 14:44:11,916 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:11,917 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.07s.
+2024-09-11 14:44:11,917 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:11,962 [BombeRLeWorld] INFO: STARTING STEP 19
+2024-09-11 14:44:12,074 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.01s.
+2024-09-11 14:44:12,074 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:12,075 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (7, 15)
+2024-09-11 14:44:12,076 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.09s.
+2024-09-11 14:44:12,076 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:12,077 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:12,078 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:12,117 [BombeRLeWorld] INFO: STARTING STEP 20
+2024-09-11 14:44:12,203 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.03s.
+2024-09-11 14:44:12,203 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:12,204 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.04s.
+2024-09-11 14:44:12,205 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:12,206 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:12,206 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:12,258 [BombeRLeWorld] INFO: STARTING STEP 21
+2024-09-11 14:44:12,626 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.04s.
+2024-09-11 14:44:12,626 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:12,627 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.31s.
+2024-09-11 14:44:12,627 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:12,627 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:12,627 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:12,672 [BombeRLeWorld] INFO: STARTING STEP 22
+2024-09-11 14:44:12,899 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
+2024-09-11 14:44:12,899 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:12,900 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.20s.
+2024-09-11 14:44:12,900 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:12,900 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:12,900 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:12,945 [BombeRLeWorld] INFO: STARTING STEP 23
+2024-09-11 14:44:13,026 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
+2024-09-11 14:44:13,027 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,027 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:13,027 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:13,028 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.05s.
+2024-09-11 14:44:13,028 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,028 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (7, 15) explodes
+2024-09-11 14:44:13,078 [BombeRLeWorld] INFO: STARTING STEP 24
+2024-09-11 14:44:13,156 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.04s.
+2024-09-11 14:44:13,157 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,157 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.02s.
+2024-09-11 14:44:13,158 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,159 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:13,160 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:13,206 [BombeRLeWorld] INFO: STARTING STEP 25
+2024-09-11 14:44:13,373 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:13,374 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,375 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.14s.
+2024-09-11 14:44:13,375 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:13,376 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:13,377 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,427 [BombeRLeWorld] INFO: STARTING STEP 26
+2024-09-11 14:44:13,535 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.04s.
+2024-09-11 14:44:13,536 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,536 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.05s.
+2024-09-11 14:44:13,537 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:13,538 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
+2024-09-11 14:44:13,538 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,586 [BombeRLeWorld] INFO: STARTING STEP 27
+2024-09-11 14:44:13,702 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:13,702 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,703 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:13,703 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:13,703 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.02s.
+2024-09-11 14:44:13,704 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,759 [BombeRLeWorld] INFO: STARTING STEP 28
+2024-09-11 14:44:13,797 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:13,798 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:13,799 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:13,799 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,800 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:13,800 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,859 [BombeRLeWorld] INFO: STARTING STEP 29
+2024-09-11 14:44:13,992 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.04s.
+2024-09-11 14:44:13,993 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:13,993 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:13,993 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:13,994 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.09s.
+2024-09-11 14:44:13,994 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,034 [BombeRLeWorld] INFO: STARTING STEP 30
+2024-09-11 14:44:14,154 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.03s.
+2024-09-11 14:44:14,177 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:14,178 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:14,179 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:14,179 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:14,179 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,230 [BombeRLeWorld] INFO: STARTING STEP 31
+2024-09-11 14:44:14,300 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.01s.
+2024-09-11 14:44:14,301 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:14,301 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (1, 10)
+2024-09-11 14:44:14,302 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.05s.
+2024-09-11 14:44:14,303 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:14,303 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:14,304 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,344 [BombeRLeWorld] INFO: STARTING STEP 32
+2024-09-11 14:44:14,403 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
+2024-09-11 14:44:14,403 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:14,403 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.03s.
+2024-09-11 14:44:14,404 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:14,404 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:14,405 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,448 [BombeRLeWorld] INFO: STARTING STEP 33
+2024-09-11 14:44:14,503 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.01s.
+2024-09-11 14:44:14,503 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:14,504 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.03s.
+2024-09-11 14:44:14,504 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,504 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:14,505 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:14,557 [BombeRLeWorld] INFO: STARTING STEP 34
+2024-09-11 14:44:14,677 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.02s.
+2024-09-11 14:44:14,677 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:14,677 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:14,677 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:14,678 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:14,678 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,721 [BombeRLeWorld] INFO: STARTING STEP 35
+2024-09-11 14:44:14,807 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.05s.
+2024-09-11 14:44:14,807 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:14,808 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.02s.
+2024-09-11 14:44:14,808 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:14,809 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:14,810 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:14,811 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (1, 10) explodes
+2024-09-11 14:44:14,812 [BombeRLeWorld] INFO: Coin found at (1, 8)
+2024-09-11 14:44:14,854 [BombeRLeWorld] INFO: STARTING STEP 36
+2024-09-11 14:44:15,113 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action RIGHT in 0.01s.
+2024-09-11 14:44:15,113 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:15,114 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.22s.
+2024-09-11 14:44:15,115 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:15,115 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:15,116 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:15,185 [BombeRLeWorld] INFO: STARTING STEP 37
+2024-09-11 14:44:15,463 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.02s.
+2024-09-11 14:44:15,463 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:15,464 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.02s.
+2024-09-11 14:44:15,465 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:15,465 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.24s.
+2024-09-11 14:44:15,466 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:15,550 [BombeRLeWorld] INFO: STARTING STEP 38
+2024-09-11 14:44:15,662 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action LEFT in 0.01s.
+2024-09-11 14:44:15,663 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:15,664 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.05s.
+2024-09-11 14:44:15,664 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:15,665 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.05s.
+2024-09-11 14:44:15,666 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:15,715 [BombeRLeWorld] INFO: STARTING STEP 39
+2024-09-11 14:44:15,755 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:15,756 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:15,757 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:15,757 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:15,758 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:15,759 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:15,804 [BombeRLeWorld] INFO: STARTING STEP 40
+2024-09-11 14:44:15,894 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:15,894 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:15,894 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:15,895 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:15,895 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.07s.
+2024-09-11 14:44:15,895 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:15,958 [BombeRLeWorld] INFO: STARTING STEP 41
+2024-09-11 14:44:15,992 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.01s.
+2024-09-11 14:44:15,993 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:15,993 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:15,994 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:15,995 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:15,995 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,045 [BombeRLeWorld] INFO: STARTING STEP 42
+2024-09-11 14:44:16,137 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
+2024-09-11 14:44:16,138 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:16,139 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.08s.
+2024-09-11 14:44:16,139 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:16,140 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:16,140 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,177 [BombeRLeWorld] INFO: STARTING STEP 43
+2024-09-11 14:44:16,283 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.00s.
+2024-09-11 14:44:16,283 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:16,283 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:16,284 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:16,284 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:16,284 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,284 [BombeRLeWorld] INFO: Agent <rule_based_agent> picked up coin at (1, 8) and receives 1 point
+2024-09-11 14:44:16,321 [BombeRLeWorld] INFO: STARTING STEP 44
+2024-09-11 14:44:16,403 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.06s.
+2024-09-11 14:44:16,404 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:16,405 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:16,406 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:16,409 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:16,410 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,473 [BombeRLeWorld] INFO: STARTING STEP 45
+2024-09-11 14:44:16,578 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:16,578 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:16,579 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:16,579 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,579 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action BOMB in 0.00s.
+2024-09-11 14:44:16,579 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:16,579 [BombeRLeWorld] INFO: Agent <rule_based_agent> drops bomb at (1, 7)
+2024-09-11 14:44:16,623 [BombeRLeWorld] INFO: STARTING STEP 46
+2024-09-11 14:44:16,785 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.04s.
+2024-09-11 14:44:16,786 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,786 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.06s.
+2024-09-11 14:44:16,786 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:16,787 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.06s.
+2024-09-11 14:44:16,787 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:16,832 [BombeRLeWorld] INFO: STARTING STEP 47
+2024-09-11 14:44:16,982 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.02s.
+2024-09-11 14:44:16,983 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:16,983 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.04s.
+2024-09-11 14:44:16,984 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:16,985 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.09s.
+2024-09-11 14:44:16,985 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:17,030 [BombeRLeWorld] INFO: STARTING STEP 48
+2024-09-11 14:44:17,501 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.28s.
+2024-09-11 14:44:17,502 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:17,502 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.16s.
+2024-09-11 14:44:17,503 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:17,504 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.03s.
+2024-09-11 14:44:17,504 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:17,553 [BombeRLeWorld] INFO: STARTING STEP 49
+2024-09-11 14:44:17,693 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.02s.
+2024-09-11 14:44:17,694 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:17,694 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.08s.
+2024-09-11 14:44:17,695 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:17,696 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.03s.
+2024-09-11 14:44:17,696 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:17,697 [BombeRLeWorld] INFO: Agent <rule_based_agent>'s bomb at (1, 7) explodes
+2024-09-11 14:44:17,742 [BombeRLeWorld] INFO: STARTING STEP 50
+2024-09-11 14:44:18,066 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.28s.
+2024-09-11 14:44:18,066 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:18,067 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.01s.
+2024-09-11 14:44:18,067 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:18,067 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action DOWN in 0.03s.
+2024-09-11 14:44:18,067 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:18,113 [BombeRLeWorld] INFO: STARTING STEP 51
+2024-09-11 14:44:18,362 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.04s.
+2024-09-11 14:44:18,363 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:18,364 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.19s.
+2024-09-11 14:44:18,365 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:18,365 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.02s.
+2024-09-11 14:44:18,366 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:18,407 [BombeRLeWorld] INFO: STARTING STEP 52
+2024-09-11 14:44:18,518 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:18,521 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:18,521 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.01s.
+2024-09-11 14:44:18,522 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:18,522 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:18,522 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:18,572 [BombeRLeWorld] INFO: STARTING STEP 53
+2024-09-11 14:44:18,701 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.08s.
+2024-09-11 14:44:18,702 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:18,703 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:18,703 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:18,703 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.02s.
+2024-09-11 14:44:18,704 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
+2024-09-11 14:44:18,739 [BombeRLeWorld] INFO: STARTING STEP 54
+2024-09-11 14:44:18,813 [BombeRLeWorld] INFO: Agent <test_agent_0> chose action DOWN in 0.02s.
+2024-09-11 14:44:18,814 [BombeRLeWorld] INFO: Agent <test_agent_0> stayed within acceptable think time.
+2024-09-11 14:44:18,815 [BombeRLeWorld] INFO: Agent <test_agent_1> chose action DOWN in 0.04s.
+2024-09-11 14:44:18,816 [BombeRLeWorld] INFO: Agent <test_agent_1> stayed within acceptable think time.
+2024-09-11 14:44:18,816 [BombeRLeWorld] INFO: Agent <rule_based_agent> chose action UP in 0.02s.
+2024-09-11 14:44:18,817 [BombeRLeWorld] INFO: Agent <rule_based_agent> stayed within acceptable think time.
