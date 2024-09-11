@@ -57,9 +57,9 @@ def act(self, game_state: dict) -> str:
     if self.train and random.random() < self.epsilon:
         
         self.logger.debug("Choosing action purely at random (exploration).")
-        #print("i am here going random")
+        print("i am here going random")
         action = np.random.choice(ACTIONS, p=[.21, .21, .21, .21, .11, .05])
-        #print(action)
+        print(action)
         '''
         #following the rule based agent list of valid actions
         action=rule_act(game_state)
@@ -81,15 +81,6 @@ def act(self, game_state: dict) -> str:
         #print(self.epsilon)
        
     return action
-'''
-def select_action(self, state):
-    if random.random() < self.epsilon:
-        return random.choice(ACTIONS)  # Choose a random action from the list
-    else:
-        with torch.no_grad():
-            action_index = self.model(state).argmax().item()  # Get the index of the best action
-            return ACTIONS[action_index]  # Return the corresponding action
-'''
 
 '''
 def state_to_features(game_state: dict) -> np.array:
