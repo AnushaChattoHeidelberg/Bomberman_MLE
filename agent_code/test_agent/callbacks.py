@@ -22,12 +22,12 @@ def setup(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
-    if self.train or not os.path.isfile("my-saved-model.pt"):
-        self.batch_size = BATCH_SIZE
-        self.gamma = GAMMA
-        self.epsilon = EPS_START
-        self.epsilon_decay = EPS_DECAY
-        self.epsilon_min = EPS_END
+    self.batch_size = BATCH_SIZE  # manually delete model to restart training
+    self.gamma = GAMMA
+    self.epsilon = EPS_START
+    self.epsilon_decay = EPS_DECAY
+    self.epsilon_min = EPS_END
+    if self.train and not os.path.isfile("my-saved-model.pt"): # and not to continue training,
         self.logger.info("Setting up model from scratch.")
         self.model = DQN(n_actions=6)  
     else:
@@ -57,24 +57,29 @@ def act(self, game_state: dict) -> str:
     if self.train and random.random() < self.epsilon:
         
         self.logger.debug("Choosing action purely at random (exploration).")
-        print("i am here going random")
-        action = np.random.choice(ACTIONS, p=[.21, .21, .21, .21, .11, .05])
-        print(action)
+        #print("i am here going random")
+        action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+        #print(action)
         '''
         #following the rule based agent list of valid actions
         action=rule_act(game_state)
         print(action)
         '''
     else:
-        print("i am here using model")
+        #print("Using the model")
         self.logger.debug("Querying model for action (exploitation).")
         state_tensor = create_input(game_state).unsqueeze(0)  # Add batch dimension
+        #print(state_tensor)
         self.model.eval()  # Set model to evaluation mode
         with torch.no_grad():
             q_values = self.model(state_tensor)
         action_idx = q_values.argmax().item()
         action = ACTIONS[action_idx]
+        #print(action)
+
+    if not self.train:
         print(action)
+
     if self.train:   
         if self.epsilon > EPS_END:
             self.epsilon *= EPS_DECAY

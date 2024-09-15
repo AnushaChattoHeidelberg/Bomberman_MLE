@@ -5,6 +5,8 @@ from typing import List
 import torch
 import torch.nn.functional as F
 import random
+
+import events
 import events as e
 from .dqn import DQN, n_actions
 from .data import create_input
@@ -13,7 +15,7 @@ Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
 
 # Hyper parameters -- DO modify
-TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
+TRANSITION_HISTORY_SIZE = 5  # keep only ... last transitions
 RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 
 # Events
@@ -22,9 +24,9 @@ PLACEHOLDER_EVENT = "PLACEHOLDER"
 BATCH_SIZE = 128
 GAMMA = 0.99
 EPS_START = 0.9
-EPS_END = 0.05
-EPS_DECAY = 1000
-TAU = 0.005
+EPS_END = 0.1
+EPS_DECAY = 0.999
+TAU = 0.001
 LR = 1e-4
 
 
@@ -88,6 +90,53 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         # Optionally, you may also store this experience directly in the replay buffer for training
         #self.store_experience(old_state_features, self_action, reward, new_state_features, False)  # 'False' for not done
 
+def train(self):
+    if len(self.replay_buffer) < BATCH_SIZE:
+        return
+
+        # Sample a batch of transitions
+    batch = random.sample(self.replay_buffer, BATCH_SIZE)
+    states, actions, rewards, next_states, dones = zip(*batch)
+    """
+    if len(self.replay_buffer) < self.batch_size:
+        return
+
+        # Sample a batch of transitions
+    batch = random.sample(self.replay_buffer, self.batch_size)
+    states, actions, rewards, next_states, dones = zip(*batch)
+    """
+    # Convert to tensors
+    states = torch.stack(states)
+    actions = torch.tensor(actions).unsqueeze(1)
+    rewards = torch.tensor(rewards, dtype=torch.float32)
+    next_states = torch.stack(next_states)
+    dones = torch.tensor(dones, dtype=torch.float32)
+
+    # Compute Q values
+    q_values = self.model(states).gather(1, actions).squeeze(1)  # Q(s, a)
+
+    # Compute target Q values
+    with torch.no_grad():
+        next_q_values = self.target_model(next_states).max(1)[0]  # max_a' Q(s', a')
+        target_q_values = rewards + self.gamma * next_q_values * (1 - dones)
+
+        # Compute the loss
+    loss = F.mse_loss(q_values, target_q_values)
+
+    # Perform backpropagation
+    self.optimizer.zero_grad()
+    loss.backward()
+
+    # Optional: Gradient clipping for stability
+    torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
+
+    # Update model parameters
+    self.optimizer.step()
+
+    # Epsilon decay
+    if self.epsilon > self.epsilon_min:
+        self.epsilon *= self.epsilon_decay
+
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
@@ -104,6 +153,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     """
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
     self.transitions.append(Transition(create_input(last_game_state), last_action, None, reward_from_events(self, events)))
+    train(self)
     torch.save(self.model.state_dict(), "my-saved-model.pt")  # Save model parameters
 
 
@@ -116,17 +166,14 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        e.COIN_COLLECTED: +10,
-        e.KILLED_OPPONENT: +5,
+        e.COIN_COLLECTED: +100,
+        e.CRATE_DESTROYED: +5,
+        e.COIN_FOUND: +7,
+        e.KILLED_OPPONENT: +10,
         e.KILLED_SELF: -100,
-        e.MOVED_DOWN: -0.0001,
-        e.MOVED_LEFT: -0.0001,
-        e.MOVED_RIGHT: -0.0001,
-        e.MOVED_UP: -0.0001,
-        e.WAITED: -0.0001,
-        e.SURVIVED_ROUND: +100,
-        e.INVALID_ACTION: -10,
-        e.BOMB_DROPPED: -0.0001
+        e.SURVIVED_ROUND: +10,
+        e.INVALID_ACTION: -1000,
+        e.BOMB_DROPPED: 0
     }
     reward_sum = 0
     for event in events:
@@ -139,46 +186,6 @@ def reward_from_events(self, events: List[str]) -> int:
 def store_experience(self, state, action, reward, next_state, done):
     self.replay_buffer.append((state, action, reward, next_state, done))
 
-
-def train(self):
-        if len(self.replay_buffer) < self.batch_size:
-            return  
-        
-        # Sample a batch of transitions
-        batch = random.sample(self.replay_buffer, self.batch_size)
-        states, actions, rewards, next_states, dones = zip(*batch)
-
-        # Convert to tensors
-        states = torch.stack(states)
-        actions = torch.tensor(actions).unsqueeze(1)  
-        rewards = torch.tensor(rewards, dtype=torch.float32)
-        next_states = torch.stack(next_states)
-        dones = torch.tensor(dones, dtype=torch.float32)
-
-        # Compute Q values
-        q_values = self.model(states).gather(1, actions).squeeze(1)  # Q(s, a)
-
-        # Compute target Q values
-        with torch.no_grad():
-            next_q_values = self.target_model(next_states).max(1)[0]  # max_a' Q(s', a')
-            target_q_values = rewards + self.gamma * next_q_values * (1 - dones)  
-
-        # Compute the loss
-        loss = F.mse_loss(q_values, target_q_values)
-
-        # Perform backpropagation
-        self.optimizer.zero_grad()
-        loss.backward()
-
-        # Optional: Gradient clipping for stability
-        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
-
-        # Update model parameters
-        self.optimizer.step()
-
-        # Epsilon decay
-        if self.epsilon > self.epsilon_min:
-            self.epsilon *= self.epsilon_decay
 
 def update_target_model(self):
     # Perform soft update of target network
