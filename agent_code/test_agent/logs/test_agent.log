@@ -1,31 +1,9 @@
-2024-09-15 00:04:24,704 [test_agent_code] INFO: Loading model from saved state.
-2024-09-15 00:04:25,293 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,311 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,410 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,512 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,611 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,713 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,812 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:25,912 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,012 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,112 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,212 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,314 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,414 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,513 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,614 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,715 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,815 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:26,916 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,017 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,117 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,217 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,319 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,419 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,519 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,625 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,722 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,822 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:27,923 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:28,026 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-15 00:04:28,125 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-19 02:35:32,541 [test_agent_code] INFO: Loading model from saved state.
+2024-09-19 02:35:33,816 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-19 02:35:33,816 [test_agent_wrapper] ERROR: 'types.SimpleNamespace' object has no attribute 'x'
+Traceback (most recent call last):
+  File "/home/anushac/Documents/projects/Bomberman_MLE/agents.py", line 248, in process_event
+    event_result = getattr(module, event_name)(self.fake_self, *event_args)
+  File "/home/anushac/Documents/projects/Bomberman_MLE/agent_code/test_agent/callbacks.py", line 71, in act
+    agent_pos = (self.x, self.y)
+AttributeError: 'types.SimpleNamespace' object has no attribute 'x'

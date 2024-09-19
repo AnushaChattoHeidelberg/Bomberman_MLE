@@ -35,6 +35,13 @@ def setup(self):
         self.model = DQN(n_actions=6)  
         self.model.load_state_dict(torch.load("my-saved-model.pt"))
 
+def is_within_radius(self, pos1: tuple, pos2: tuple, radius: int) -> bool:
+    """
+    Determine if two positions are within a given radius.
+    """
+
+    return abs(pos1[0] - pos2[0]) <= radius and abs(pos1[1] - pos2[1]) <= radius
+
 
 def act(self, game_state: dict) -> str:
     """
@@ -60,6 +67,20 @@ def act(self, game_state: dict) -> str:
         #print("i am here going random")
         action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
         #print(action)
+         # Adjust weights based on game state 
+        agent_pos = (self.x, self.y)
+
+        # Check nearby bombs
+        for bomb, _ in game_state['bombs']:
+            if self.is_within_radius(agent_pos, bomb, radius=2):  
+                weights[0:4] = 0.1
+            
+        explosion_map = game_state['explosion_map']
+        if explosion_map[agent_pos[0], agent_pos[1]] > 0:
+            weights[0:4] = 0.1
+            
+        weights /= weights.sum()  # Normalize weights
+        action = np.random.choice(ACTIONS, p=weights)
         '''
         #following the rule based agent list of valid actions
         action=rule_act(game_state)
