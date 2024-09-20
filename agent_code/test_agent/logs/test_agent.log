@@ -1,721 +1,454 @@
-2024-09-19 04:14:12,920 [test_agent_code] INFO: Loading model from saved state.
-2024-09-19 04:14:14,083 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,085 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
-2024-09-19 04:14:14,085 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:14,191 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,195 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 2
-2024-09-19 04:14:14,195 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:14,289 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,291 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-19 04:14:14,292 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:14,389 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,392 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 4
-2024-09-19 04:14:14,392 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:14,487 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,489 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 5
-2024-09-19 04:14:14,489 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:14,589 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,594 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:14,594 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:14,688 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,690 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
-2024-09-19 04:14:14,690 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:14,790 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:14,800 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'OPPONENT_ELIMINATED' in step 8
-2024-09-19 04:14:14,800 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION, OPPONENT_ELIMINATED
-2024-09-19 04:14:14,889 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,892 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 9
-2024-09-19 04:14:14,892 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:14,992 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:14,994 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:14,994 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,090 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,093 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 11
-2024-09-19 04:14:15,093 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,190 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,192 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
-2024-09-19 04:14:15,192 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,290 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,292 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-19 04:14:15,292 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,389 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,393 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 14
-2024-09-19 04:14:15,393 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:15,490 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,492 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 15
-2024-09-19 04:14:15,492 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,591 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,593 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 16
-2024-09-19 04:14:15,593 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:15,691 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,693 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
-2024-09-19 04:14:15,693 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,792 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,795 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 18
-2024-09-19 04:14:15,795 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:15,892 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,895 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 19
-2024-09-19 04:14:15,895 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:15,990 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:15,992 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 20
-2024-09-19 04:14:15,992 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:16,091 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:16,093 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 21
-2024-09-19 04:14:16,093 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:16,193 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:16,195 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
-2024-09-19 04:14:16,195 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:16,292 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:16,302 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
-2024-09-19 04:14:16,302 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:16,396 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:16,400 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'COIN_FOUND', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:16,401 [test_agent_code] INFO: Awarded -1078 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, COIN_FOUND, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:20,702 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:20,705 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 1
-2024-09-19 04:14:20,705 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:20,803 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:20,805 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:20,805 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:20,902 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:20,905 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-19 04:14:20,905 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:21,000 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,002 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 4
-2024-09-19 04:14:21,002 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:21,101 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,103 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:21,103 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:21,199 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,201 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 6
-2024-09-19 04:14:21,201 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:21,303 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,305 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 7
-2024-09-19 04:14:21,305 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:21,403 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,405 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 8
-2024-09-19 04:14:21,405 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:21,503 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,505 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 9
-2024-09-19 04:14:21,505 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:21,603 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,605 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 10
-2024-09-19 04:14:21,605 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:21,702 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,705 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 11
-2024-09-19 04:14:21,705 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:21,804 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,807 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
-2024-09-19 04:14:21,807 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:21,904 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:21,907 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'OPPONENT_ELIMINATED' in step 13
-2024-09-19 04:14:21,907 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION, OPPONENT_ELIMINATED
-2024-09-19 04:14:22,002 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:22,004 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 14
-2024-09-19 04:14:22,004 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:22,105 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:22,106 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 15
-2024-09-19 04:14:22,106 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:22,204 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:22,216 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 16
-2024-09-19 04:14:22,216 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:22,307 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:22,309 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 17
-2024-09-19 04:14:22,309 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:22,406 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:22,410 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
-2024-09-19 04:14:22,410 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:22,528 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:22,532 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 19
-2024-09-19 04:14:22,532 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:22,607 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:22,616 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 20
-2024-09-19 04:14:22,616 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:22,706 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:22,715 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 21
-2024-09-19 04:14:22,715 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:22,808 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:22,818 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
-2024-09-19 04:14:22,818 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:22,907 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:22,910 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
-2024-09-19 04:14:22,910 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,009 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:23,019 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 24
-2024-09-19 04:14:23,019 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,107 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,109 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 25
-2024-09-19 04:14:23,109 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,205 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,208 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 26
-2024-09-19 04:14:23,208 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:23,308 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,312 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 27
-2024-09-19 04:14:23,312 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,408 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,412 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 28
-2024-09-19 04:14:23,412 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:23,509 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,514 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 29
-2024-09-19 04:14:23,514 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,608 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,612 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 30
-2024-09-19 04:14:23,612 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,709 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,713 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 31
-2024-09-19 04:14:23,713 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,810 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,812 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 32
-2024-09-19 04:14:23,812 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:23,908 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:23,910 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 33
-2024-09-19 04:14:23,910 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:24,009 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:24,017 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 34
-2024-09-19 04:14:24,017 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,108 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,113 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 35
-2024-09-19 04:14:24,113 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:24,210 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,215 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 36
-2024-09-19 04:14:24,215 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,309 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,315 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 37
-2024-09-19 04:14:24,315 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,411 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,416 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 38
-2024-09-19 04:14:24,416 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:24,512 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,517 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 39
-2024-09-19 04:14:24,517 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,610 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,615 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 40
-2024-09-19 04:14:24,615 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,712 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,717 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 41
-2024-09-19 04:14:24,717 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,813 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,817 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 42
-2024-09-19 04:14:24,817 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:24,912 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:24,916 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 43
-2024-09-19 04:14:24,916 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:25,012 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:25,014 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 44
-2024-09-19 04:14:25,014 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:25,112 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:25,114 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 45
-2024-09-19 04:14:25,115 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:25,213 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:25,222 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 46
-2024-09-19 04:14:25,223 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:25,313 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:25,318 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 47
-2024-09-19 04:14:25,318 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:25,412 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:25,416 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:25,417 [test_agent_code] INFO: Awarded -1095 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:26,718 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:26,722 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
-2024-09-19 04:14:26,722 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:26,819 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:26,829 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:26,829 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:26,922 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:26,934 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-19 04:14:26,934 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,024 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,027 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 4
-2024-09-19 04:14:27,028 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:27,123 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,126 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:27,126 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,223 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:27,230 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:27,231 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,320 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,323 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
-2024-09-19 04:14:27,323 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,417 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,419 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 8
-2024-09-19 04:14:27,419 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:27,521 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,525 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
-2024-09-19 04:14:27,525 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,618 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,621 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:27,621 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,718 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,721 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 11
-2024-09-19 04:14:27,721 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:27,819 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:27,822 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:27,822 [test_agent_code] INFO: Awarded -1090 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:29,120 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,122 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
-2024-09-19 04:14:29,122 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:29,222 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,225 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:29,225 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:29,322 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,325 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-19 04:14:29,326 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:29,423 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,425 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
-2024-09-19 04:14:29,425 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:29,523 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,526 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:29,526 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:29,623 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,626 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 6
-2024-09-19 04:14:29,626 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:29,723 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:29,731 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 7
-2024-09-19 04:14:29,731 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:29,823 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,827 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 8
-2024-09-19 04:14:29,827 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:29,924 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:29,927 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP', 'OPPONENT_ELIMINATED' in step 9
-2024-09-19 04:14:29,927 [test_agent_code] INFO: Awarded 0 for events MOVED_UP, OPPONENT_ELIMINATED
-2024-09-19 04:14:30,025 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,027 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 10
-2024-09-19 04:14:30,027 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:30,123 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,126 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 11
-2024-09-19 04:14:30,126 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,224 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,226 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
-2024-09-19 04:14:30,226 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,326 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,328 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-19 04:14:30,328 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,424 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:30,434 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 14
-2024-09-19 04:14:30,434 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,525 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,527 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 15
-2024-09-19 04:14:30,527 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,624 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:30,633 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 16
-2024-09-19 04:14:30,633 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,726 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:30,734 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
-2024-09-19 04:14:30,735 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:30,825 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,827 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 18
-2024-09-19 04:14:30,827 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:30,925 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:30,927 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 19
-2024-09-19 04:14:30,927 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:31,027 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,029 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 20
-2024-09-19 04:14:31,029 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,125 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:31,135 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 21
-2024-09-19 04:14:31,135 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:31,225 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,227 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
-2024-09-19 04:14:31,227 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,327 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,328 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
-2024-09-19 04:14:31,328 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,431 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:31,508 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 24
-2024-09-19 04:14:31,509 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,523 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,524 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 25
-2024-09-19 04:14:31,524 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,627 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,630 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 26
-2024-09-19 04:14:31,630 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:31,726 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,729 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 27
-2024-09-19 04:14:31,729 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,826 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,829 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 28
-2024-09-19 04:14:31,830 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:31,938 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:31,942 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 29
-2024-09-19 04:14:31,942 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:32,033 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:32,037 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_UP', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'COIN_FOUND', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:32,037 [test_agent_code] INFO: Awarded -63 for events MOVED_UP, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, COIN_FOUND, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:33,829 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:33,840 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
-2024-09-19 04:14:33,840 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:33,932 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:33,943 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:33,943 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,032 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:34,044 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-19 04:14:34,045 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,137 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:34,147 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
-2024-09-19 04:14:34,147 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,233 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:34,235 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:34,235 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,333 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:34,336 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:34,336 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,434 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:34,446 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
-2024-09-19 04:14:34,446 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,533 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:34,535 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 8
-2024-09-19 04:14:34,535 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:34,635 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:34,642 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
-2024-09-19 04:14:34,642 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,733 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:34,737 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:34,737 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,833 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:34,836 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 11
-2024-09-19 04:14:34,836 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:34,935 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:34,938 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_LEFT', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:34,938 [test_agent_code] INFO: Awarded -90 for events MOVED_LEFT, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:36,238 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:36,248 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
-2024-09-19 04:14:36,248 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:36,338 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:36,341 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:36,341 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:36,441 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:36,445 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 3
-2024-09-19 04:14:36,445 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:36,539 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:36,543 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 4
-2024-09-19 04:14:36,543 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:36,639 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:36,651 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 5
-2024-09-19 04:14:36,651 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:36,740 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:36,750 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:36,750 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:36,838 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:36,841 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 7
-2024-09-19 04:14:36,841 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:36,939 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:36,949 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 8
-2024-09-19 04:14:36,949 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:37,040 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,043 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT', 'OPPONENT_ELIMINATED' in step 9
-2024-09-19 04:14:37,043 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT, OPPONENT_ELIMINATED
-2024-09-19 04:14:37,141 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,144 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:37,144 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:37,241 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,244 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 11
-2024-09-19 04:14:37,244 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:37,340 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,342 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 12
-2024-09-19 04:14:37,342 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:37,441 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,444 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-19 04:14:37,444 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:37,542 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,545 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 14
-2024-09-19 04:14:37,545 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:37,642 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,645 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 15
-2024-09-19 04:14:37,645 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:37,742 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,743 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 16
-2024-09-19 04:14:37,744 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:37,841 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,842 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
-2024-09-19 04:14:37,842 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:37,943 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:37,947 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
-2024-09-19 04:14:37,947 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,043 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,045 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 19
-2024-09-19 04:14:38,045 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,142 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,144 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 20
-2024-09-19 04:14:38,144 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:38,243 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,245 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 21
-2024-09-19 04:14:38,245 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:38,363 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,367 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
-2024-09-19 04:14:38,368 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,443 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,445 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
-2024-09-19 04:14:38,445 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,544 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,546 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 24
-2024-09-19 04:14:38,546 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,642 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,645 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 25
-2024-09-19 04:14:38,645 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,744 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:38,755 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 26
-2024-09-19 04:14:38,756 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:38,843 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:38,851 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 27
-2024-09-19 04:14:38,852 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:38,944 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:38,948 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 28
-2024-09-19 04:14:38,948 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:39,043 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:39,054 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 29
-2024-09-19 04:14:39,054 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:39,143 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:39,155 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 30
-2024-09-19 04:14:39,155 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:39,245 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,249 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 31
-2024-09-19 04:14:39,249 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:39,345 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,348 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 32
-2024-09-19 04:14:39,348 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:39,446 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,451 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 33
-2024-09-19 04:14:39,451 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:39,546 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,552 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 34
-2024-09-19 04:14:39,552 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:39,646 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:39,657 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 35
-2024-09-19 04:14:39,658 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:39,744 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,748 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 36
-2024-09-19 04:14:39,748 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:39,846 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,848 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 37
-2024-09-19 04:14:39,848 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:39,946 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:39,949 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 38
-2024-09-19 04:14:39,949 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:40,046 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:40,055 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 39
-2024-09-19 04:14:40,055 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:40,147 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:40,156 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 40
-2024-09-19 04:14:40,156 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:40,244 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:40,246 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 41
-2024-09-19 04:14:40,246 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:40,348 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:40,360 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:40,361 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:41,449 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:41,451 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 1
-2024-09-19 04:14:41,452 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:41,550 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:41,552 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:41,552 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:41,649 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:41,659 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 3
-2024-09-19 04:14:41,659 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:41,750 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:41,753 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
-2024-09-19 04:14:41,753 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:41,851 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:41,854 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:41,854 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:41,951 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:41,954 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED', 'OPPONENT_ELIMINATED' in step 6
-2024-09-19 04:14:41,954 [test_agent_code] INFO: Awarded 0 for events WAITED, OPPONENT_ELIMINATED
-2024-09-19 04:14:42,052 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:42,054 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 7
-2024-09-19 04:14:42,054 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:42,177 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:42,206 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 8
-2024-09-19 04:14:42,206 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:42,251 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:42,252 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 9
-2024-09-19 04:14:42,252 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:42,349 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:42,362 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:42,363 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:42,453 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:42,455 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 11
-2024-09-19 04:14:42,455 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:42,552 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:42,562 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
-2024-09-19 04:14:42,562 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:42,651 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:42,662 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-19 04:14:42,662 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:42,752 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:42,756 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 14
-2024-09-19 04:14:42,756 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:42,852 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:42,854 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 15
-2024-09-19 04:14:42,854 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:42,952 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:42,955 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 16
-2024-09-19 04:14:42,955 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:43,052 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:43,054 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 17
-2024-09-19 04:14:43,054 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:43,152 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:43,162 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
-2024-09-19 04:14:43,162 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:43,253 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:43,256 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 19
-2024-09-19 04:14:43,256 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:43,354 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:43,362 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 20
-2024-09-19 04:14:43,362 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:43,453 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:43,463 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 21
-2024-09-19 04:14:43,463 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:43,553 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:43,555 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 22
-2024-09-19 04:14:43,555 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:43,655 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:43,657 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 23
-2024-09-19 04:14:43,658 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:43,754 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:43,757 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 24
-2024-09-19 04:14:43,757 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:43,855 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:43,857 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 25
-2024-09-19 04:14:43,857 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:43,954 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:43,961 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:43,962 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:45,058 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,061 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 1
-2024-09-19 04:14:45,061 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:45,158 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,160 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 2
-2024-09-19 04:14:45,160 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:45,255 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,257 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 3
-2024-09-19 04:14:45,258 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:45,357 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,359 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 4
-2024-09-19 04:14:45,359 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:45,458 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,460 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:45,460 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:45,559 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,561 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:45,561 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:45,659 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,661 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED' in step 7
-2024-09-19 04:14:45,661 [test_agent_code] INFO: Awarded 10 for events MOVED_LEFT, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED
-2024-09-19 04:14:45,761 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,763 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 8
-2024-09-19 04:14:45,763 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:45,860 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,863 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
-2024-09-19 04:14:45,863 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:45,964 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:45,967 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:45,967 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:46,066 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:46,071 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 11
-2024-09-19 04:14:46,072 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:46,162 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:46,174 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
-2024-09-19 04:14:46,174 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:46,262 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:46,266 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-19 04:14:46,266 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:46,358 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:46,361 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 14
-2024-09-19 04:14:46,361 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:46,462 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:46,465 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 15
-2024-09-19 04:14:46,465 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:46,562 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:46,565 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 16
-2024-09-19 04:14:46,565 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:46,662 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:46,674 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
-2024-09-19 04:14:46,674 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:46,762 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:46,767 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_UP', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:46,768 [test_agent_code] INFO: Awarded -95 for events MOVED_UP, BOMB_EXPLODED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:47,764 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:47,767 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 1
-2024-09-19 04:14:47,767 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:47,865 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:47,867 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
-2024-09-19 04:14:47,867 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:47,965 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:47,969 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-19 04:14:47,969 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:48,066 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:48,069 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 4
-2024-09-19 04:14:48,069 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:48,166 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:48,170 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:48,170 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:48,266 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:48,270 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:48,270 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:48,367 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:48,370 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
-2024-09-19 04:14:48,370 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:48,477 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:48,483 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_DOWN', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:48,484 [test_agent_code] INFO: Awarded -85 for events MOVED_DOWN, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-19 04:14:49,368 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:49,371 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
-2024-09-19 04:14:49,371 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:49,469 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:49,471 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 2
-2024-09-19 04:14:49,471 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-19 04:14:49,570 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:49,579 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 3
-2024-09-19 04:14:49,579 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-19 04:14:49,668 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:49,670 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
-2024-09-19 04:14:49,671 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:49,770 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:49,773 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
-2024-09-19 04:14:49,773 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:49,870 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:49,880 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
-2024-09-19 04:14:49,880 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:49,969 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:49,973 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'OPPONENT_ELIMINATED' in step 7
-2024-09-19 04:14:49,973 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT, OPPONENT_ELIMINATED
-2024-09-19 04:14:50,070 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,072 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 8
-2024-09-19 04:14:50,072 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:50,171 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,174 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 9
-2024-09-19 04:14:50,174 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:50,270 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:50,280 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-19 04:14:50,280 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:50,372 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,375 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 11
-2024-09-19 04:14:50,375 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-19 04:14:50,470 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:50,479 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
-2024-09-19 04:14:50,479 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:50,571 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,574 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-19 04:14:50,574 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:50,672 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,674 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 14
-2024-09-19 04:14:50,674 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:50,771 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,773 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 15
-2024-09-19 04:14:50,773 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-19 04:14:50,873 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:50,875 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 16
-2024-09-19 04:14:50,875 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-19 04:14:50,999 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:51,002 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
-2024-09-19 04:14:51,002 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:51,072 [test_agent_code] DEBUG: Querying model for action (exploitation).
-2024-09-19 04:14:51,083 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
-2024-09-19 04:14:51,083 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
-2024-09-19 04:14:51,171 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:51,174 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 19
-2024-09-19 04:14:51,174 [test_agent_code] INFO: Awarded 0 for events WAITED
-2024-09-19 04:14:51,272 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
-2024-09-19 04:14:51,275 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_RIGHT', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-19 04:14:51,275 [test_agent_code] INFO: Awarded -90 for events MOVED_RIGHT, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:22,756 [test_agent_code] INFO: Loading model from saved state.
+2024-09-20 12:31:24,299 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:24,357 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
+2024-09-20 12:31:24,357 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:24,397 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:24,400 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 2
+2024-09-20 12:31:24,400 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:24,499 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:24,501 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 3
+2024-09-20 12:31:24,501 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:24,592 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:24,595 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
+2024-09-20 12:31:24,595 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:24,692 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:24,694 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
+2024-09-20 12:31:24,694 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:24,793 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:24,795 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'COIN_FOUND', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'COIN_FOUND', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:24,796 [test_agent_code] INFO: Awarded -1066 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, COIN_FOUND, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, COIN_FOUND, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:29,107 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,110 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 1
+2024-09-20 12:31:29,110 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:29,204 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,206 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
+2024-09-20 12:31:29,206 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:29,303 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,305 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2024-09-20 12:31:29,305 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:29,404 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,406 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
+2024-09-20 12:31:29,407 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:29,504 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,535 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'OPPONENT_ELIMINATED' in step 5
+2024-09-20 12:31:29,535 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION, OPPONENT_ELIMINATED
+2024-09-20 12:31:29,606 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,608 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:29,608 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:29,705 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,706 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
+2024-09-20 12:31:29,706 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:29,804 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,805 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 8
+2024-09-20 12:31:29,805 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:29,905 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:29,907 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
+2024-09-20 12:31:29,907 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,005 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,007 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
+2024-09-20 12:31:30,007 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,104 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,106 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 11
+2024-09-20 12:31:30,106 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:30,204 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,206 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 12
+2024-09-20 12:31:30,206 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:30,308 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,311 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
+2024-09-20 12:31:30,311 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,406 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,409 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 14
+2024-09-20 12:31:30,409 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,509 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,511 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 15
+2024-09-20 12:31:30,511 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:30,608 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,610 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 16
+2024-09-20 12:31:30,610 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,709 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,711 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
+2024-09-20 12:31:30,711 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,807 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,809 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
+2024-09-20 12:31:30,809 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:30,909 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:30,911 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:30,912 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:32,012 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:32,015 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
+2024-09-20 12:31:32,015 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:32,111 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:32,117 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
+2024-09-20 12:31:32,117 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:32,212 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:32,214 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 3
+2024-09-20 12:31:32,214 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:32,314 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:32,321 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
+2024-09-20 12:31:32,321 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:32,413 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:32,416 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 5
+2024-09-20 12:31:32,416 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:32,511 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:32,513 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:32,513 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:32,612 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:32,619 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:32,619 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:33,715 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:33,717 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
+2024-09-20 12:31:33,717 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:33,814 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:33,819 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
+2024-09-20 12:31:33,819 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:33,914 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:33,917 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 3
+2024-09-20 12:31:33,917 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:34,014 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,016 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 4
+2024-09-20 12:31:34,016 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:34,117 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,119 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
+2024-09-20 12:31:34,119 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:34,216 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,219 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:34,219 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:34,319 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,321 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
+2024-09-20 12:31:34,321 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:34,415 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,417 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 8
+2024-09-20 12:31:34,417 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:34,516 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,519 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
+2024-09-20 12:31:34,519 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:34,618 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,620 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 10
+2024-09-20 12:31:34,620 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:34,716 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,718 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 11
+2024-09-20 12:31:34,719 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:34,816 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:34,819 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:34,819 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:35,918 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:35,920 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 1
+2024-09-20 12:31:35,920 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:36,017 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:36,022 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 2
+2024-09-20 12:31:36,022 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:36,121 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:36,123 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 3
+2024-09-20 12:31:36,123 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:36,219 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:36,221 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 4
+2024-09-20 12:31:36,221 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:36,320 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:36,322 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 5
+2024-09-20 12:31:36,322 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:36,420 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:36,427 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:36,427 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:36,521 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:36,523 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
+2024-09-20 12:31:36,523 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:36,620 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:36,621 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 8
+2024-09-20 12:31:36,621 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:36,720 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:36,722 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:36,723 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:37,723 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:37,725 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
+2024-09-20 12:31:37,725 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:37,824 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:37,825 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
+2024-09-20 12:31:37,825 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:37,924 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:37,930 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2024-09-20 12:31:37,930 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:38,026 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,029 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 4
+2024-09-20 12:31:38,029 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:38,127 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:38,135 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 5
+2024-09-20 12:31:38,135 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:38,225 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,228 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:38,228 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:38,325 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,327 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 7
+2024-09-20 12:31:38,327 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:38,425 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,426 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 8
+2024-09-20 12:31:38,426 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:38,524 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,526 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
+2024-09-20 12:31:38,526 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:38,624 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,625 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
+2024-09-20 12:31:38,625 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:38,725 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,727 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 11
+2024-09-20 12:31:38,727 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:38,827 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,829 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 12
+2024-09-20 12:31:38,829 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:38,928 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:38,930 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
+2024-09-20 12:31:38,930 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,026 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,027 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 14
+2024-09-20 12:31:39,028 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
+2024-09-20 12:31:39,126 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,128 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 15
+2024-09-20 12:31:39,128 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:39,226 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,228 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 16
+2024-09-20 12:31:39,228 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,326 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,327 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
+2024-09-20 12:31:39,327 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,426 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:39,433 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
+2024-09-20 12:31:39,433 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,529 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,533 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 19
+2024-09-20 12:31:39,533 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,628 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,630 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 20
+2024-09-20 12:31:39,630 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,727 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,729 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 21
+2024-09-20 12:31:39,729 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,831 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,834 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
+2024-09-20 12:31:39,834 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:39,928 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:39,930 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
+2024-09-20 12:31:39,930 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,028 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:40,030 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 24
+2024-09-20 12:31:40,030 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,128 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:40,129 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 25
+2024-09-20 12:31:40,129 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,227 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:40,235 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 26
+2024-09-20 12:31:40,235 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,330 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:40,341 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 27
+2024-09-20 12:31:40,341 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,429 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:40,433 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 28
+2024-09-20 12:31:40,433 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,528 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:40,531 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 29
+2024-09-20 12:31:40,531 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,628 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:40,631 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 30
+2024-09-20 12:31:40,631 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
+2024-09-20 12:31:40,729 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:40,732 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'OPPONENT_ELIMINATED' in step 31
+2024-09-20 12:31:40,732 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION, OPPONENT_ELIMINATED
+2024-09-20 12:31:40,830 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:40,836 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 32
+2024-09-20 12:31:40,836 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:40,932 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:40,939 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 33
+2024-09-20 12:31:40,939 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:41,032 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,034 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 34
+2024-09-20 12:31:41,034 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:41,131 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,134 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 35
+2024-09-20 12:31:41,134 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:41,231 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:41,237 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 36
+2024-09-20 12:31:41,237 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:41,332 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,334 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 37
+2024-09-20 12:31:41,334 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:41,432 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,433 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 38
+2024-09-20 12:31:41,433 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:41,531 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,533 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 39
+2024-09-20 12:31:41,533 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:41,632 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,633 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 40
+2024-09-20 12:31:41,633 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:41,732 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,733 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 41
+2024-09-20 12:31:41,733 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:41,833 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,834 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 42
+2024-09-20 12:31:41,834 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:41,933 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:41,935 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 43
+2024-09-20 12:31:41,935 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:42,031 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:42,033 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 44
+2024-09-20 12:31:42,033 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:42,134 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:42,138 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_DOWN', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:42,138 [test_agent_code] INFO: Awarded -85 for events MOVED_DOWN, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:43,240 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:43,248 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 1
+2024-09-20 12:31:43,248 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:43,340 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:43,343 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 2
+2024-09-20 12:31:43,343 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:43,436 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:43,438 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2024-09-20 12:31:43,438 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:43,536 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:43,539 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 4
+2024-09-20 12:31:43,539 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
+2024-09-20 12:31:43,638 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:43,640 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 5
+2024-09-20 12:31:43,640 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:43,737 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:43,739 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'OPPONENT_ELIMINATED' in step 6
+2024-09-20 12:31:43,739 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION, OPPONENT_ELIMINATED
+2024-09-20 12:31:43,839 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:43,844 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
+2024-09-20 12:31:43,845 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:43,940 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:43,942 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 8
+2024-09-20 12:31:43,942 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:44,037 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:44,043 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:44,043 [test_agent_code] INFO: Awarded -1085 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:45,042 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,045 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 1
+2024-09-20 12:31:45,045 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:45,140 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,142 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
+2024-09-20 12:31:45,142 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:45,239 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,241 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 3
+2024-09-20 12:31:45,241 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:45,340 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,342 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 4
+2024-09-20 12:31:45,342 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:45,440 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,442 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
+2024-09-20 12:31:45,442 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:45,540 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,542 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:45,542 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:45,641 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:45,643 [test_agent_code] DEBUG: Encountered event(s) 'MOVED_DOWN', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:45,644 [test_agent_code] INFO: Awarded -85 for events MOVED_DOWN, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:47,145 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:47,148 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 1
+2024-09-20 12:31:47,148 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:47,247 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:47,253 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 2
+2024-09-20 12:31:47,253 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:47,347 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:47,349 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2024-09-20 12:31:47,350 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:47,445 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:47,446 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
+2024-09-20 12:31:47,446 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:47,545 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:47,548 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:47,548 [test_agent_code] INFO: Awarded -1080 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-20 12:31:48,448 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:48,449 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 1
+2024-09-20 12:31:48,449 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:48,548 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:48,550 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 2
+2024-09-20 12:31:48,550 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:48,648 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:48,654 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2024-09-20 12:31:48,654 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:48,751 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:48,753 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
+2024-09-20 12:31:48,754 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:48,848 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:48,850 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 5
+2024-09-20 12:31:48,850 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
+2024-09-20 12:31:48,948 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:48,950 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2024-09-20 12:31:48,950 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:49,049 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,051 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
+2024-09-20 12:31:49,051 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:49,149 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,151 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 8
+2024-09-20 12:31:49,151 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:49,249 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,250 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
+2024-09-20 12:31:49,250 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:49,351 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,352 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 10
+2024-09-20 12:31:49,353 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
+2024-09-20 12:31:49,449 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:49,455 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 11
+2024-09-20 12:31:49,455 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:49,551 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,553 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 12
+2024-09-20 12:31:49,553 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
+2024-09-20 12:31:49,655 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,658 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 13
+2024-09-20 12:31:49,658 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
+2024-09-20 12:31:49,756 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,758 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 14
+2024-09-20 12:31:49,758 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:49,851 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,853 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 15
+2024-09-20 12:31:49,853 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:49,951 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:49,953 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'OPPONENT_ELIMINATED' in step 16
+2024-09-20 12:31:49,953 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION, OPPONENT_ELIMINATED
+2024-09-20 12:31:50,050 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,052 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 17
+2024-09-20 12:31:50,052 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,152 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,154 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
+2024-09-20 12:31:50,154 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,252 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,254 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 19
+2024-09-20 12:31:50,254 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:50,353 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:50,359 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 20
+2024-09-20 12:31:50,359 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,454 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,456 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 21
+2024-09-20 12:31:50,456 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,554 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,556 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
+2024-09-20 12:31:50,556 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,654 [test_agent_code] DEBUG: Querying model for action (exploitation).
+2024-09-20 12:31:50,662 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
+2024-09-20 12:31:50,662 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,755 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,758 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 24
+2024-09-20 12:31:50,758 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:50,854 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,856 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 25
+2024-09-20 12:31:50,856 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
+2024-09-20 12:31:50,955 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:50,957 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 26
+2024-09-20 12:31:50,957 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-20 12:31:51,054 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:51,056 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 27
+2024-09-20 12:31:51,056 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:51,154 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:51,156 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 28
+2024-09-20 12:31:51,156 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-20 12:31:51,255 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:51,257 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 29
+2024-09-20 12:31:51,257 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:51,354 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:51,356 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 30
+2024-09-20 12:31:51,356 [test_agent_code] INFO: Awarded -1000 for events INVALID_ACTION
+2024-09-20 12:31:51,454 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:51,456 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 31
+2024-09-20 12:31:51,456 [test_agent_code] INFO: Awarded 0 for events WAITED
+2024-09-20 12:31:51,554 [test_agent_code] DEBUG: Choosing action purely at random (exploration).
+2024-09-20 12:31:51,556 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'COIN_FOUND', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-20 12:31:51,557 [test_agent_code] INFO: Awarded -1083 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, COIN_FOUND, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED

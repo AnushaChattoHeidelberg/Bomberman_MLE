@@ -148,7 +148,7 @@ def act(self, game_state: dict) -> str:
         '''
         #following the rule based agent list of valid actions
         
-        print(action)
+        #print(action)
         
     else:
         #print("Using the model")
@@ -163,7 +163,7 @@ def act(self, game_state: dict) -> str:
         #print(action)
 
     if not self.train:
-        print(action)
+        self.logger.debug(action)
 
     if self.train:   
         if self.epsilon > EPS_END:
