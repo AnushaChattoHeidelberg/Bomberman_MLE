@@ -23,7 +23,7 @@ PLACEHOLDER_EVENT = "PLACEHOLDER"
 
 BATCH_SIZE = 128
 GAMMA = 0.99
-EPS_START = 0.9
+EPS_START = 0.7
 EPS_END = 0.1
 EPS_DECAY = 0.999
 TAU = 0.001
@@ -170,16 +170,20 @@ def reward_from_events(self, events: List[str]) -> int:
         e.CRATE_DESTROYED: +5,
         e.COIN_FOUND: +7,
         e.KILLED_OPPONENT: +10,
-        e.KILLED_SELF: -100,
+        e.KILLED_SELF: -1000,
         e.SURVIVED_ROUND: +10,
-        e.INVALID_ACTION: -1000,
-        e.BOMB_DROPPED: 0
+        e.INVALID_ACTION: -10,
+        e.BOMB_DROPPED: +0,
+        e.WAITED: +100,
+        e.MOVED_UP: +100000
     }
     reward_sum = 0
+    self.logger.info("------------------------")
     for event in events:
         if event in game_rewards:
             reward_sum += game_rewards[event]
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
+    self.logger.info("------------------------")
     return reward_sum
 
 
