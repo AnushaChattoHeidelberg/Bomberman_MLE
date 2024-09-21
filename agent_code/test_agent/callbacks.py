@@ -14,7 +14,49 @@ direction_to_action = {
     (1, 0): 'DOWN',
     (-1, 0): 'UP'
 }
-from ..rule_based_agent.callbacks import act as rule_act
+#setting up a rulebased agent's setup clone to use instead of random
+from random import shuffle
+from collections import deque
+def look_for_targets(free_space, start, targets, logger=None):
+    """Find direction of closest target that can be reached via free tiles.
+        Same as the rule_based_agent's rules
+    """
+    if len(targets) == 0: return None
+
+    frontier = [start]
+    parent_dict = {start: start}
+    dist_so_far = {start: 0}
+    best = start
+    best_dist = np.sum(np.abs(np.subtract(targets, start)), axis=1).min()
+    
+    while len(frontier) > 0:
+        current = frontier.pop(0)
+        # Find distance from current position to all targets, track closest
+        d = np.sum(np.abs(np.subtract(targets, current)), axis=1).min()
+        if d + dist_so_far[current] <= best_dist:
+            best = current
+            best_dist = d + dist_so_far[current]
+        if d == 0:
+            # Found path to a target's exact position, mission accomplished!
+            best = current
+            break
+        # Add unexplored free neighboring tiles to the queue in a random order
+        x, y = current
+        neighbors = [(x, y) for (x, y) in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)] if free_space[x, y]]
+        shuffle(neighbors)
+        for neighbor in neighbors:
+            if neighbor not in parent_dict:
+                frontier.append(neighbor)
+                parent_dict[neighbor] = current
+                dist_so_far[neighbor] = dist_so_far[current] + 1
+    if logger: logger.debug(f'Suitable target found at {best}')
+    # Determine the first step towards the best found target tile
+    current = best
+    while True:
+        if parent_dict[current] == start: return current
+        current = parent_dict[current]
+
+
 def setup(self):
     """
     Setup your code. This is called once when loading each agent.
@@ -31,6 +73,14 @@ def setup(self):
     """
     self.bomb_dropped = False
     self.move = 'WAIT'
+    self.logger.debug('Successfully entered setup code')
+    np.random.seed()
+    # Fixed length FIFO queues to avoid repeating the same actions
+    self.bomb_history = deque([], 5)
+    self.coordinate_history = deque([], 20)
+    # While this timer is positive, agent will not hunt/attack opponents
+    self.ignore_others_timer = 0
+    self.current_round = 0
     self.batch_size = BATCH_SIZE  # manually delete model to restart training
     self.gamma = GAMMA
     self.epsilon = EPS_START
@@ -44,7 +94,11 @@ def setup(self):
         self.model = DQN(n_actions=6)  
         self.model.load_state_dict(torch.load("my-saved-model.pt"))
 
-
+def reset_self(self):
+    self.bomb_history = deque([], 5)
+    self.coordinate_history = deque([], 20)
+    # While this timer is positive, agent will not hunt/attack opponents
+    self.ignore_others_timer = 0
 
 def act(self, game_state: dict) -> str:
     """
@@ -57,110 +111,157 @@ def act(self, game_state: dict) -> str:
     """
     # todo Exploration vs exploitation
     #random_prob = .1
-    '''
-    self.logger.debug("Choosing action purely at random (exploration).")
-    print("i am here going random")
-    action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
-    print(action)
-    '''
-    '''
-    num_actions = len(ACTIONS)
-    weights = np.ones(num_actions) / num_actions  # Start with uniform distribution
-
-    # Extract agent's position
-    agent_pos = game_state['self'][3]
-
-    # Initialize the explosion map
-    explosion_map = game_state['explosion_map']
     
-    # Define possible move directions: up, down, left, right
-    directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-    # Initialize matrix for logging
-    logging_matrix = np.copy(explosion_map)
-    logging_matrix[agent_pos[0], agent_pos[1]] = 0.5  # Mark the agent's current position
-
-    # Iterate over each direction to check possible bomb placements
-    for direction in directions:
-        bomb_pos = (agent_pos[0] + direction[0], agent_pos[1] + direction[1])
-
-        # Check if bomb position is within bounds
-        if 0 <= bomb_pos[0] < game_state['field'].shape[0] and 0 <= bomb_pos[1] < game_state['field'].shape[1]:
-            # Assume action index 5 is 'place bomb'
-            bomb_action_index = 5
-
-            # Check if the agent can move to a safe position immediately after placing the bomb
-            safe_move_found = False
-            for move_direction in directions:
-                new_x, new_y = agent_pos[0] + move_direction[0], agent_pos[1] + move_direction[1]
-
-                # Ensure the new position is within the bounds of the field
-                if 0 <= new_x < game_state['field'].shape[0] and 0 <= new_y < game_state['field'].shape[1]:
-                    # Check if the new position is safe from explosions
-                    if explosion_map[new_x, new_y] == 0:
-                        safe_move_found = True
-                        move=direction_to_action.get(move_direction,'WAIT')
-                        break
-            
-            if safe_move_found:
-                self.logger.debug("Safe move found.")
-                self.logger.debug(move)
-                weights[bomb_action_index] = 0.5  # Favor placing a bomb if safe
-            else:
-                weights[bomb_action_index] = 0
-
-    weights = np.clip(weights, 0, None)  
-    total_weight = weights.sum()
-    if total_weight > 0:
-        weights /= total_weight  
-    else:
-        weights = np.ones(num_actions) / num_actions 
-        '''
     #print(self.train)
     
     if self.train and random.random() < self.epsilon:
         
-        self.logger.debug("Choosing action purely at random (exploration).")
+        #self.logger.debug("Choosing action purely at random (exploration).")
         #print("i am here going random")
-        action = np.random.choice(ACTIONS, p=[.21, .21, .21, .21, .05, .11])
+        #action = np.random.choice(ACTIONS, p=[.21, .21, .21, .21, .05, .11])
         #action = np.random.choice(ACTIONS, p=weights)
         #print(action)
         #print(game_state['self'][3])
-        '''
-        # Adjust weights based on game state 
-        num_actions = len(ACTIONS)
-        weights = np.ones(num_actions) / num_actions
-        agent_pos = game_state['self'][3]
-
-        # Check nearby bombs
-        for bomb, _ in game_state['bombs']:
-            distance = abs(agent_pos[0] - bomb[0]) + abs(agent_pos[1] - bomb[1])
-        
-            # Adjust weights if bomb is within radius of 2
-            if distance <= 4:
-                weights[0:4] = 0
-            
-        explosion_map = game_state['explosion_map']
-        if explosion_map[agent_pos[0], agent_pos[1]] > 0:
-            weights[0:4] = 0
-            
-        weights /= weights.sum()  
-        action = np.random.choice(ACTIONS, p=weights)
-        '''
         #following the rule based agent list of valid actions
         
         #print(action)
+        #create_input(game_state)
+        self.logger.info('------Picking action according to rule set--------------')
+        # Check if we are in a different round
+        if game_state["round"] != self.current_round:
+            reset_self(self)
+            self.current_round = game_state["round"]
+        # Gather information about the game state
+        arena = game_state['field'] 
+        _, score, bombs_left, (x, y) = game_state['self']
+        bombs = game_state['bombs']
         
+        bomb_xys = [xy for (xy, t) in bombs]
+        others = [xy for (n, s, b, xy) in game_state['others']]
+        coins = game_state['coins']
+        bomb_map = np.ones(arena.shape) * 5
+        for (xb, yb), t in bombs:
+            for (i, j) in [(xb + h, yb) for h in range(-3, 4)] + [(xb, yb + h) for h in range(-3, 4)]:
+                if (0 < i < bomb_map.shape[0]) and (0 < j < bomb_map.shape[1]):
+                    bomb_map[i, j] = min(bomb_map[i, j], t)
+
+        # If agent has been in the same location three times recently, it's a loop
+        if self.coordinate_history.count((x, y)) > 2:
+            self.ignore_others_timer = 5
+        else:
+            self.ignore_others_timer -= 1
+        self.coordinate_history.append((x, y))
+
+        # Check which moves make sense at all
+        directions = [(x, y), (x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]
+        valid_tiles, valid_actions = [], []
+        for d in directions:
+            if ((arena[d] == 0) and
+                    (game_state['explosion_map'][d] < 1) and
+                    (bomb_map[d] > 0) and
+                    (not d in others) and
+                    (not d in bomb_xys)):
+                valid_tiles.append(d)
+        if (x - 1, y) in valid_tiles: valid_actions.append('LEFT')
+        if (x + 1, y) in valid_tiles: valid_actions.append('RIGHT')
+        if (x, y - 1) in valid_tiles: valid_actions.append('UP')
+        if (x, y + 1) in valid_tiles: valid_actions.append('DOWN')
+        if (x, y) in valid_tiles: valid_actions.append('WAIT')
+        # Disallow the BOMB action if agent dropped a bomb in the same spot recently
+        if (bombs_left > 0) and (x, y) not in self.bomb_history: valid_actions.append('BOMB')
+        self.logger.debug(f'Valid actions: {valid_actions}')
+
+        # Collect basic action proposals in a queue
+        # Later on, the last added action that is also valid will be chosen
+        action_ideas = ['UP', 'DOWN', 'LEFT', 'RIGHT']
+        shuffle(action_ideas)
+
+        # Compile a list of 'targets' the agent should head towards
+        cols = range(1, arena.shape[0] - 1)
+        rows = range(1, arena.shape[0] - 1)
+        dead_ends = [(x, y) for x in cols for y in rows if (arena[x, y] == 0)
+                    and ([arena[x + 1, y], arena[x - 1, y], arena[x, y + 1], arena[x, y - 1]].count(0) == 1)]
+        crates = [(x, y) for x in cols for y in rows if (arena[x, y] == 1)]
+        targets = coins + dead_ends + crates
+        # Add other agents as targets if in hunting mode or no crates/coins left
+        if self.ignore_others_timer <= 0 or (len(crates) + len(coins) == 0):
+            targets.extend(others)
+
+        # Exclude targets that are currently occupied by a bomb
+        targets = [targets[i] for i in range(len(targets)) if targets[i] not in bomb_xys]
+
+        # Take a step towards the most immediately interesting target
+        free_space = arena == 0
+        if self.ignore_others_timer > 0:
+            for o in others:
+                free_space[o] = False
+        d = look_for_targets(free_space, (x, y), targets, self.logger)
+        if d == (x, y - 1): action_ideas.append('UP')
+        if d == (x, y + 1): action_ideas.append('DOWN')
+        if d == (x - 1, y): action_ideas.append('LEFT')
+        if d == (x + 1, y): action_ideas.append('RIGHT')
+        if d is None:
+            self.logger.debug('All targets gone, nothing to do anymore')
+            action_ideas.append('WAIT')
+
+        # Add proposal to drop a bomb if at dead end
+        if (x, y) in dead_ends:
+            action_ideas.append('BOMB')
+        # Add proposal to drop a bomb if touching an opponent
+        if len(others) > 0:
+            if (min(abs(xy[0] - x) + abs(xy[1] - y) for xy in others)) <= 1:
+                action_ideas.append('BOMB')
+        # Add proposal to drop a bomb if arrived at target and touching crate
+        if d == (x, y) and ([arena[x + 1, y], arena[x - 1, y], arena[x, y + 1], arena[x, y - 1]].count(1) > 0):
+            action_ideas.append('BOMB')
+
+        # Add proposal to run away from any nearby bomb about to blow
+        for (xb, yb), t in bombs:
+            if (xb == x) and (abs(yb - y) < 4):
+                # Run away
+                if (yb > y): action_ideas.append('UP')
+                if (yb < y): action_ideas.append('DOWN')
+                # If possible, turn a corner
+                action_ideas.append('LEFT')
+                action_ideas.append('RIGHT')
+            if (yb == y) and (abs(xb - x) < 4):
+                # Run away
+                if (xb > x): action_ideas.append('LEFT')
+                if (xb < x): action_ideas.append('RIGHT')
+                # If possible, turn a corner
+                action_ideas.append('UP')
+                action_ideas.append('DOWN')
+        # Try random direction if directly on top of a bomb
+        for (xb, yb), t in bombs:
+            if xb == x and yb == y:
+                action_ideas.extend(action_ideas[:4])
+
+        # Pick last action added to the proposals list that is also valid
+        while len(action_ideas) > 0:
+            a = action_ideas.pop()
+            if a in valid_actions:
+                # Keep track of chosen action for cycle detection
+                if a == 'BOMB':
+                    self.bomb_history.append((x, y))
+
+                return a
+        if valid_actions:
+            return random.choice(valid_actions)
+        else:
+            return 'WAIT'
     else:
         #print("Using the model")
-        self.logger.debug("Querying model for action (exploitation).")
+        self.logger.debug("---------------Querying model for action (exploitation).-------------")
         state_tensor = create_input(game_state).unsqueeze(0)  # Add batch dimension
         #print(state_tensor)
         self.model.eval()  # Set model to evaluation mode
         with torch.no_grad():
             q_values = self.model(state_tensor)
+            self.logger.debug(q_values)
         action_idx = q_values.argmax().item()
         action = ACTIONS[action_idx]
         #print(action)
+    self.logger.debug("-----end of turn------")
 
     if not self.train:
         self.logger.debug(action)
@@ -168,34 +269,5 @@ def act(self, game_state: dict) -> str:
     if self.train:   
         if self.epsilon > EPS_END:
             self.epsilon *= EPS_DECAY
-        #print(self.epsilon)
-       
+        self.logger.debug(self.epsilon )
     return action
-
-'''
-def state_to_features(game_state: dict) -> np.array:
-    """
-    *This is not a required function, but an idea to structure your code.*
-
-    Converts the game state to the input of your model, i.e.
-    a feature vector.
-
-    You can find out about the state of the game environment via game_state,
-    which is a dictionary. Consult 'get_state_for_agent' in environment.py to see
-    what it contains.
-
-    :param game_state:  A dictionary describing the current game board.
-    :return: np.array
-    """
-    # This is the dict before the game begins and after it ends
-    if game_state is None:
-        return None
-
-    # For example, you could construct several channels of equal shape, ...
-    channels = []
-    channels.append(...)
-    # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
-    # and return them as a vector
-    return stacked_channels.reshape(-1)
-'''
