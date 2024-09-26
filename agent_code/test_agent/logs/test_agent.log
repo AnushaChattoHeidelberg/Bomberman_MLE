@@ -1,228 +1,39 @@
-2024-09-26 02:41:58,745 [test_agent_code] DEBUG: Successfully entered setup code
-2024-09-26 02:41:58,746 [test_agent_code] INFO: Loading model from saved state.
-2024-09-26 02:41:59,670 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:41:59,671 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT', 'BOMB']
-2024-09-26 02:41:59,671 [test_agent_code] DEBUG: Suitable target found at (14, 15)
-2024-09-26 02:41:59,672 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 1
-2024-09-26 02:41:59,672 [test_agent_code] INFO: ------------------------
-2024-09-26 02:41:59,672 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 02:41:59,672 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:00,248 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:00,248 [test_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
-2024-09-26 02:42:00,249 [test_agent_code] DEBUG: Suitable target found at (14, 15)
-2024-09-26 02:42:00,250 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 2
-2024-09-26 02:42:00,250 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:00,250 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-26 02:42:00,250 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:00,564 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:00,756 [test_agent_code] DEBUG: tensor([[ 0.0221, -0.0329, -0.0415, -0.0497, -0.0333,  0.0032]])
-2024-09-26 02:42:00,758 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:00,758 [test_agent_code] DEBUG: 0.6992999999999999
-2024-09-26 02:42:00,759 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-26 02:42:00,759 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:00,760 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 02:42:00,760 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:01,164 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:01,164 [test_agent_code] DEBUG: Valid actions: ['RIGHT']
-2024-09-26 02:42:01,164 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:01,165 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 4
-2024-09-26 02:42:01,165 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:01,165 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-26 02:42:01,165 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:01,493 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:01,493 [test_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
-2024-09-26 02:42:01,493 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:01,494 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 5
-2024-09-26 02:42:01,494 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:01,494 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-26 02:42:01,494 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:01,808 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:01,808 [test_agent_code] DEBUG: Valid actions: ['WAIT']
-2024-09-26 02:42:01,808 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:01,810 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED' in step 6
-2024-09-26 02:42:01,810 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:01,810 [test_agent_code] INFO: Awarded 149 for events WAITED, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED
-2024-09-26 02:42:01,810 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:02,138 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:02,138 [test_agent_code] DEBUG: Valid actions: ['WAIT']
-2024-09-26 02:42:02,139 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:02,140 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 7
-2024-09-26 02:42:02,140 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:02,140 [test_agent_code] INFO: Awarded -1 for events WAITED
-2024-09-26 02:42:02,140 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:02,467 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:02,467 [test_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
-2024-09-26 02:42:02,467 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:02,468 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 8
-2024-09-26 02:42:02,468 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:02,468 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-26 02:42:02,468 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:02,801 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:02,801 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT', 'BOMB']
-2024-09-26 02:42:02,802 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:02,803 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 9
-2024-09-26 02:42:02,803 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:02,803 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-26 02:42:02,803 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:03,114 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:03,280 [test_agent_code] DEBUG: tensor([[ 0.0223, -0.0333, -0.0416, -0.0494, -0.0338,  0.0036]])
-2024-09-26 02:42:03,281 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:03,281 [test_agent_code] DEBUG: 0.6986007
-2024-09-26 02:42:03,283 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 10
-2024-09-26 02:42:03,283 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:03,284 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 02:42:03,284 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:03,714 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:03,714 [test_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
-2024-09-26 02:42:03,714 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 02:42:03,716 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 11
-2024-09-26 02:42:03,716 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:03,716 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-26 02:42:03,716 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:04,023 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:04,024 [test_agent_code] DEBUG: Valid actions: ['DOWN']
-2024-09-26 02:42:04,024 [test_agent_code] DEBUG: Suitable target found at (13, 14)
-2024-09-26 02:42:04,025 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 12
-2024-09-26 02:42:04,025 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:04,025 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-26 02:42:04,025 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:04,328 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:04,508 [test_agent_code] DEBUG: tensor([[ 0.0222, -0.0333, -0.0415, -0.0495, -0.0338,  0.0035]])
-2024-09-26 02:42:04,509 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:04,509 [test_agent_code] DEBUG: 0.6979020992999999
-2024-09-26 02:42:04,512 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 13
-2024-09-26 02:42:04,512 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:04,512 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 02:42:04,512 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:04,858 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:04,858 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
-2024-09-26 02:42:04,858 [test_agent_code] DEBUG: Suitable target found at (13, 14)
-2024-09-26 02:42:04,860 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 14
-2024-09-26 02:42:04,860 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:04,860 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 02:42:04,860 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:05,161 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:05,317 [test_agent_code] DEBUG: tensor([[ 0.0224, -0.0331, -0.0417, -0.0497, -0.0336,  0.0033]])
-2024-09-26 02:42:05,318 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:05,318 [test_agent_code] DEBUG: 0.6972041972006999
-2024-09-26 02:42:05,320 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED' in step 15
-2024-09-26 02:42:05,320 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:05,320 [test_agent_code] INFO: Awarded 140 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED
-2024-09-26 02:42:05,320 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:05,717 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:05,717 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
-2024-09-26 02:42:05,718 [test_agent_code] DEBUG: Suitable target found at (13, 14)
-2024-09-26 02:42:05,719 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 16
-2024-09-26 02:42:05,719 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:05,719 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 02:42:05,719 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:06,028 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:06,225 [test_agent_code] DEBUG: tensor([[ 0.0221, -0.0332, -0.0415, -0.0496, -0.0334,  0.0034]])
-2024-09-26 02:42:06,226 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:06,226 [test_agent_code] DEBUG: 0.6965069930034993
-2024-09-26 02:42:06,227 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 17
-2024-09-26 02:42:06,227 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:06,227 [test_agent_code] INFO: Awarded 0 for events MOVED_UP
-2024-09-26 02:42:06,227 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:06,542 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:06,542 [test_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
-2024-09-26 02:42:06,543 [test_agent_code] DEBUG: Suitable target found at (13, 14)
-2024-09-26 02:42:06,544 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 18
-2024-09-26 02:42:06,544 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:06,544 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-26 02:42:06,544 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:06,853 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:06,853 [test_agent_code] DEBUG: Valid actions: ['DOWN']
-2024-09-26 02:42:06,854 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:06,856 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 19
-2024-09-26 02:42:06,856 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:06,856 [test_agent_code] INFO: Awarded 0 for events MOVED_DOWN
-2024-09-26 02:42:06,856 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:07,165 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:07,165 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
-2024-09-26 02:42:07,165 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:07,167 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 20
-2024-09-26 02:42:07,167 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:07,167 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-26 02:42:07,167 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:07,476 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:07,476 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
-2024-09-26 02:42:07,477 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:07,478 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 21
-2024-09-26 02:42:07,478 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:07,478 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 02:42:07,478 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:07,784 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:07,784 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT']
-2024-09-26 02:42:07,785 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:07,787 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED' in step 22
-2024-09-26 02:42:07,787 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:07,787 [test_agent_code] INFO: Awarded 100 for events MOVED_RIGHT, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED
-2024-09-26 02:42:07,787 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:08,211 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:08,412 [test_agent_code] DEBUG: tensor([[ 0.0221, -0.0330, -0.0416, -0.0498, -0.0334,  0.0032]])
-2024-09-26 02:42:08,413 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:08,413 [test_agent_code] DEBUG: 0.6958104860104958
-2024-09-26 02:42:08,415 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
-2024-09-26 02:42:08,415 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:08,415 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 02:42:08,415 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:08,748 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:08,749 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
-2024-09-26 02:42:08,749 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:08,751 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 24
-2024-09-26 02:42:08,751 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:08,751 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 02:42:08,751 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:09,057 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:09,057 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT', 'BOMB']
-2024-09-26 02:42:09,058 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:09,059 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 25
-2024-09-26 02:42:09,059 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:09,060 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 02:42:09,060 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:09,374 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:09,374 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
-2024-09-26 02:42:09,374 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:09,376 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'OPPONENT_ELIMINATED' in step 26
-2024-09-26 02:42:09,376 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:09,376 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT, OPPONENT_ELIMINATED
-2024-09-26 02:42:09,376 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:09,699 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:09,699 [test_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
-2024-09-26 02:42:09,700 [test_agent_code] DEBUG: Suitable target found at (11, 15)
-2024-09-26 02:42:09,701 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 27
-2024-09-26 02:42:09,701 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:09,701 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-26 02:42:09,701 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:10,022 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:10,220 [test_agent_code] DEBUG: tensor([[ 0.0220, -0.0329, -0.0413, -0.0495, -0.0332,  0.0032]])
-2024-09-26 02:42:10,221 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:10,221 [test_agent_code] DEBUG: 0.6951146755244852
-2024-09-26 02:42:10,222 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 28
-2024-09-26 02:42:10,222 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:10,222 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 02:42:10,222 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:10,540 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:10,834 [test_agent_code] DEBUG: tensor([[ 0.0220, -0.0329, -0.0414, -0.0496, -0.0332,  0.0033]])
-2024-09-26 02:42:10,835 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:10,835 [test_agent_code] DEBUG: 0.6944195608489607
-2024-09-26 02:42:10,836 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 29
-2024-09-26 02:42:10,836 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:10,836 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 02:42:10,836 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:11,154 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 02:42:11,154 [test_agent_code] DEBUG: Valid actions: ['RIGHT']
-2024-09-26 02:42:11,155 [test_agent_code] DEBUG: Suitable target found at (13, 11)
-2024-09-26 02:42:11,156 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 30
-2024-09-26 02:42:11,156 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:11,156 [test_agent_code] INFO: Awarded 0 for events MOVED_RIGHT
-2024-09-26 02:42:11,156 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:11,468 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 02:42:11,715 [test_agent_code] DEBUG: tensor([[ 0.0223, -0.0331, -0.0415, -0.0496, -0.0336,  0.0036]])
-2024-09-26 02:42:11,716 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 02:42:11,716 [test_agent_code] DEBUG: 0.6937251412881118
-2024-09-26 02:42:11,718 [test_agent_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-26 02:42:11,881 [test_agent_code] INFO: ------------------------
-2024-09-26 02:42:11,881 [test_agent_code] INFO: Awarded -760 for events INVALID_ACTION, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-26 02:42:11,881 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:38,012 [test_agent_code] DEBUG: Successfully entered setup code
+2024-09-26 03:18:38,013 [test_agent_code] INFO: Loading model from saved state.
+2024-09-26 03:18:39,001 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-26 03:18:39,373 [test_agent_code] DEBUG: tensor([[-0.0248, -0.0304,  0.0285, -0.0118, -0.0180,  0.0295]])
+2024-09-26 03:18:39,375 [test_agent_code] DEBUG: -----end of turn------
+2024-09-26 03:18:39,375 [test_agent_code] DEBUG: 0.6992999999999999
+2024-09-26 03:18:39,376 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 1
+2024-09-26 03:18:39,376 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:39,376 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
+2024-09-26 03:18:39,376 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:39,691 [test_agent_code] INFO: ------Picking action according to rule set--------------
+2024-09-26 03:18:39,691 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'UP']
+2024-09-26 03:18:39,691 [test_agent_code] DEBUG: Suitable target found at (15, 14)
+2024-09-26 03:18:39,692 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 2
+2024-09-26 03:18:39,692 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:39,692 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
+2024-09-26 03:18:39,692 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:40,006 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-26 03:18:40,236 [test_agent_code] DEBUG: tensor([[-0.0251, -0.0306,  0.0285, -0.0118, -0.0182,  0.0292]])
+2024-09-26 03:18:40,237 [test_agent_code] DEBUG: -----end of turn------
+2024-09-26 03:18:40,237 [test_agent_code] DEBUG: 0.6986007
+2024-09-26 03:18:40,239 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2024-09-26 03:18:40,239 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:40,239 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
+2024-09-26 03:18:40,239 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:40,557 [test_agent_code] INFO: ------Picking action according to rule set--------------
+2024-09-26 03:18:40,557 [test_agent_code] DEBUG: Valid actions: ['WAIT']
+2024-09-26 03:18:40,557 [test_agent_code] DEBUG: Suitable target found at (14, 15)
+2024-09-26 03:18:40,558 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 4
+2024-09-26 03:18:40,558 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:40,558 [test_agent_code] INFO: Awarded -1 for events WAITED
+2024-09-26 03:18:40,558 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:40,877 [test_agent_code] INFO: ------Picking action according to rule set--------------
+2024-09-26 03:18:40,877 [test_agent_code] DEBUG: Valid actions: []
+2024-09-26 03:18:40,877 [test_agent_code] DEBUG: Suitable target found at (14, 15)
+2024-09-26 03:18:40,879 [test_agent_code] DEBUG: Encountered event(s) 'WAITED', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2024-09-26 03:18:41,035 [test_agent_code] INFO: ------------------------
+2024-09-26 03:18:41,035 [test_agent_code] INFO: Awarded -801 for events WAITED, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
+2024-09-26 03:18:41,035 [test_agent_code] INFO: ------------------------

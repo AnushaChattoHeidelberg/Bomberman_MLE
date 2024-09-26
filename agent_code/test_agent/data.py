@@ -15,16 +15,16 @@ def create_input(game_state: dict) -> torch.tensor:
         
         # Coins
         for coin in game_state['coins']:
-            image[coin] += 0.2  # Assign value 0.2 for coins
+            image[coin] += 0.3  # Assign value 0.3 for coins
             
         # Own agent
         agent_pos = game_state['self'][3]
-        image[agent_pos] += 0.4  # Assign value 0.4 for own agent
+        image[agent_pos] += 0.2  # Assign value 0.2 for own agent
         
         # Other agents
         for opponent in game_state['others']:
             opponent_pos = opponent[3]
-            image[opponent_pos] += 0.3  # Assign value 0.3 for other agents
+            image[opponent_pos] += 0.4  # Assign value 0.3 for other agents
         
         # Bombs
         for bomb, _ in game_state['bombs']:
