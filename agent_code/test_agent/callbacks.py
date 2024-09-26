@@ -100,6 +100,8 @@ def reset_self(self):
     # While this timer is positive, agent will not hunt/attack opponents
     self.ignore_others_timer = 0
 
+
+
 def act(self, game_state: dict) -> str:
     """
     Your agent should parse the input, think, and take a decision.
@@ -254,12 +256,14 @@ def act(self, game_state: dict) -> str:
         self.logger.debug("---------------Querying model for action (exploitation).-------------")
         state_tensor = create_input(game_state).unsqueeze(0)  # Add batch dimension
         #print(state_tensor)
+        
         self.model.eval()  # Set model to evaluation mode
         with torch.no_grad():
             q_values = self.model(state_tensor)
             self.logger.debug(q_values)
         action_idx = q_values.argmax().item()
         action = ACTIONS[action_idx]
+        
         #print(action)
     self.logger.debug("-----end of turn------")
 
@@ -271,3 +275,5 @@ def act(self, game_state: dict) -> str:
             self.epsilon *= EPS_DECAY
         self.logger.debug(self.epsilon )
     return action
+
+    

@@ -26,7 +26,7 @@ GAMMA = 0.99
 EPS_START = 0.7
 EPS_END = 0.1
 EPS_DECAY = 0.999
-TAU = 0.001
+TAU = 0.01
 LR = 1e-4
 
 
@@ -67,7 +67,6 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
-    
     # Idea: Add your own events to hand out rewards
     '''if ...:
         events.append(PLACEHOLDER_EVENT)
@@ -87,9 +86,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         # Create a transition and store it
         self.transitions.append(Transition(old_state_features, self_action, new_state_features, reward))
 
-        # Optionally, you may also store this experience directly in the replay buffer for training
-        #self.store_experience(old_state_features, self_action, reward, new_state_features, False)  # 'False' for not done
-
+       
 def train(self):
     if len(self.replay_buffer) < BATCH_SIZE:
         return
@@ -126,9 +123,6 @@ def train(self):
     # Perform backpropagation
     self.optimizer.zero_grad()
     loss.backward()
-
-    # Optional: Gradient clipping for stability
-    torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
 
     # Update model parameters
     self.optimizer.step()
@@ -167,15 +161,14 @@ def reward_from_events(self, events: List[str]) -> int:
     """
     game_rewards = {
         e.COIN_COLLECTED: +100,
-        e.CRATE_DESTROYED: +5,
-        e.COIN_FOUND: +7,
-        e.KILLED_OPPONENT: +10,
+        e.CRATE_DESTROYED: +50,
+        e.COIN_FOUND: +100,
+        e.KILLED_OPPONENT: +100,
         e.KILLED_SELF: -1000,
         e.SURVIVED_ROUND: +10,
         e.INVALID_ACTION: -10,
         e.BOMB_DROPPED: +0,
-        e.WAITED: +100,
-        e.MOVED_UP: +100000
+        e.WAITED: -1
     }
     reward_sum = 0
     self.logger.info("------------------------")
