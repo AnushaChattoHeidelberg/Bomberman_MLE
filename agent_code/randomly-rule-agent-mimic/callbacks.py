@@ -118,16 +118,7 @@ def act(self, game_state: dict) -> str:
     
     if self.train and random.random() < self.epsilon:
         
-        #self.logger.debug("Choosing action purely at random (exploration).")
-        #print("i am here going random")
-        #action = np.random.choice(ACTIONS, p=[.21, .21, .21, .21, .05, .11])
-        #action = np.random.choice(ACTIONS, p=weights)
-        #print(action)
-        #print(game_state['self'][3])
-        #following the rule based agent list of valid actions
         
-        #print(action)
-        #create_input(game_state)
         choice = random.choice([1,2,3,4,5])
         if choice == 1:
             self.logger.debug("Choosing action purely at random (exploration).")

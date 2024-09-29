@@ -57,64 +57,7 @@ def act(self, game_state: dict) -> str:
     """
     # todo Exploration vs exploitation
     #random_prob = .1
-    '''
-    self.logger.debug("Choosing action purely at random (exploration).")
-    print("i am here going random")
-    action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
-    print(action)
-    '''
-    '''
-    num_actions = len(ACTIONS)
-    weights = np.ones(num_actions) / num_actions  # Start with uniform distribution
-
-    # Extract agent's position
-    agent_pos = game_state['self'][3]
-
-    # Initialize the explosion map
-    explosion_map = game_state['explosion_map']
     
-    # Define possible move directions: up, down, left, right
-    directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-    # Initialize matrix for logging
-    logging_matrix = np.copy(explosion_map)
-    logging_matrix[agent_pos[0], agent_pos[1]] = 0.5  # Mark the agent's current position
-
-    # Iterate over each direction to check possible bomb placements
-    for direction in directions:
-        bomb_pos = (agent_pos[0] + direction[0], agent_pos[1] + direction[1])
-
-        # Check if bomb position is within bounds
-        if 0 <= bomb_pos[0] < game_state['field'].shape[0] and 0 <= bomb_pos[1] < game_state['field'].shape[1]:
-            # Assume action index 5 is 'place bomb'
-            bomb_action_index = 5
-
-            # Check if the agent can move to a safe position immediately after placing the bomb
-            safe_move_found = False
-            for move_direction in directions:
-                new_x, new_y = agent_pos[0] + move_direction[0], agent_pos[1] + move_direction[1]
-
-                # Ensure the new position is within the bounds of the field
-                if 0 <= new_x < game_state['field'].shape[0] and 0 <= new_y < game_state['field'].shape[1]:
-                    # Check if the new position is safe from explosions
-                    if explosion_map[new_x, new_y] == 0:
-                        safe_move_found = True
-                        move=direction_to_action.get(move_direction,'WAIT')
-                        break
-            
-            if safe_move_found:
-                self.logger.debug("Safe move found.")
-                self.logger.debug(move)
-                weights[bomb_action_index] = 0.5  # Favor placing a bomb if safe
-            else:
-                weights[bomb_action_index] = 0
-
-    weights = np.clip(weights, 0, None)  
-    total_weight = weights.sum()
-    if total_weight > 0:
-        weights /= total_weight  
-    else:
-        weights = np.ones(num_actions) / num_actions 
-        '''
     #print(self.train)
     
     if self.train and random.random() < self.epsilon:
