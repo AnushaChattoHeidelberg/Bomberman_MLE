@@ -1,39 +1,926 @@
-2024-09-26 03:18:38,012 [test_agent_code] DEBUG: Successfully entered setup code
-2024-09-26 03:18:38,013 [test_agent_code] INFO: Loading model from saved state.
-2024-09-26 03:18:39,001 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 03:18:39,373 [test_agent_code] DEBUG: tensor([[-0.0248, -0.0304,  0.0285, -0.0118, -0.0180,  0.0295]])
-2024-09-26 03:18:39,375 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 03:18:39,375 [test_agent_code] DEBUG: 0.6992999999999999
-2024-09-26 03:18:39,376 [test_agent_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 1
-2024-09-26 03:18:39,376 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:39,376 [test_agent_code] INFO: Awarded 0 for events BOMB_DROPPED
-2024-09-26 03:18:39,376 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:39,691 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 03:18:39,691 [test_agent_code] DEBUG: Valid actions: ['LEFT', 'UP']
-2024-09-26 03:18:39,691 [test_agent_code] DEBUG: Suitable target found at (15, 14)
-2024-09-26 03:18:39,692 [test_agent_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 2
-2024-09-26 03:18:39,692 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:39,692 [test_agent_code] INFO: Awarded 0 for events MOVED_LEFT
-2024-09-26 03:18:39,692 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:40,006 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
-2024-09-26 03:18:40,236 [test_agent_code] DEBUG: tensor([[-0.0251, -0.0306,  0.0285, -0.0118, -0.0182,  0.0292]])
-2024-09-26 03:18:40,237 [test_agent_code] DEBUG: -----end of turn------
-2024-09-26 03:18:40,237 [test_agent_code] DEBUG: 0.6986007
-2024-09-26 03:18:40,239 [test_agent_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
-2024-09-26 03:18:40,239 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:40,239 [test_agent_code] INFO: Awarded -10 for events INVALID_ACTION
-2024-09-26 03:18:40,239 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:40,557 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 03:18:40,557 [test_agent_code] DEBUG: Valid actions: ['WAIT']
-2024-09-26 03:18:40,557 [test_agent_code] DEBUG: Suitable target found at (14, 15)
-2024-09-26 03:18:40,558 [test_agent_code] DEBUG: Encountered game event(s) 'WAITED' in step 4
-2024-09-26 03:18:40,558 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:40,558 [test_agent_code] INFO: Awarded -1 for events WAITED
-2024-09-26 03:18:40,558 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:40,877 [test_agent_code] INFO: ------Picking action according to rule set--------------
-2024-09-26 03:18:40,877 [test_agent_code] DEBUG: Valid actions: []
-2024-09-26 03:18:40,877 [test_agent_code] DEBUG: Suitable target found at (14, 15)
-2024-09-26 03:18:40,879 [test_agent_code] DEBUG: Encountered event(s) 'WAITED', 'BOMB_EXPLODED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'CRATE_DESTROYED', 'KILLED_SELF', 'GOT_KILLED' in final step
-2024-09-26 03:18:41,035 [test_agent_code] INFO: ------------------------
-2024-09-26 03:18:41,035 [test_agent_code] INFO: Awarded -801 for events WAITED, BOMB_EXPLODED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, CRATE_DESTROYED, KILLED_SELF, GOT_KILLED
-2024-09-26 03:18:41,035 [test_agent_code] INFO: ------------------------
+2024-09-30 00:58:40,172 [test_agent_code] DEBUG: Successfully entered setup code
+2024-09-30 00:58:40,173 [test_agent_code] INFO: Loading model from saved state.
+2024-09-30 00:58:40,468 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:40,500 [test_agent_code] DEBUG: tensor([[ 0.1553,  0.4251,  0.1274,  0.1194, -0.0415, -0.0262]])
+2024-09-30 00:58:40,502 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:40,502 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:40,574 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:40,579 [test_agent_code] DEBUG: tensor([[ 0.1575,  0.4288,  0.1282,  0.1215, -0.0412, -0.0269]])
+2024-09-30 00:58:40,582 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:40,582 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:40,677 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:40,683 [test_agent_code] DEBUG: tensor([[ 0.1256,  0.3260,  0.0778,  0.0749, -0.0415, -0.0192]])
+2024-09-30 00:58:40,686 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:40,686 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:40,773 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:40,776 [test_agent_code] DEBUG: tensor([[ 0.1254,  0.3254,  0.0776,  0.0744, -0.0415, -0.0192]])
+2024-09-30 00:58:40,777 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:40,777 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:40,873 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:40,877 [test_agent_code] DEBUG: tensor([[ 0.1260,  0.3261,  0.0778,  0.0751, -0.0413, -0.0194]])
+2024-09-30 00:58:40,878 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:40,879 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:40,971 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:40,975 [test_agent_code] DEBUG: tensor([[ 0.1425,  0.3813,  0.1052,  0.1002, -0.0407, -0.0235]])
+2024-09-30 00:58:40,976 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:40,977 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,073 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,077 [test_agent_code] DEBUG: tensor([[ 0.1452,  0.3909,  0.1110,  0.1035, -0.0408, -0.0255]])
+2024-09-30 00:58:41,079 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,079 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,173 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,176 [test_agent_code] DEBUG: tensor([[ 0.1554,  0.4198,  0.1249,  0.1185, -0.0401, -0.0255]])
+2024-09-30 00:58:41,178 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,178 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,273 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,277 [test_agent_code] DEBUG: tensor([[ 0.1561,  0.4227,  0.1261,  0.1188, -0.0403, -0.0266]])
+2024-09-30 00:58:41,279 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,279 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,374 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,378 [test_agent_code] DEBUG: tensor([[ 0.1554,  0.4198,  0.1249,  0.1185, -0.0401, -0.0255]])
+2024-09-30 00:58:41,380 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,381 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,473 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,480 [test_agent_code] DEBUG: tensor([[ 0.1232,  0.3194,  0.0754,  0.0726, -0.0412, -0.0179]])
+2024-09-30 00:58:41,482 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,482 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,572 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,575 [test_agent_code] DEBUG: tensor([[ 0.1422,  0.3787,  0.1046,  0.0997, -0.0399, -0.0231]])
+2024-09-30 00:58:41,576 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,576 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,675 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,678 [test_agent_code] DEBUG: tensor([[ 0.1410,  0.3773,  0.1038,  0.0990, -0.0401, -0.0226]])
+2024-09-30 00:58:41,680 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,680 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,775 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,779 [test_agent_code] DEBUG: tensor([[ 0.1412,  0.3775,  0.1036,  0.0993, -0.0401, -0.0227]])
+2024-09-30 00:58:41,781 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,781 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,874 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,878 [test_agent_code] DEBUG: tensor([[ 0.1299,  0.3359,  0.0842,  0.0798, -0.0411, -0.0198]])
+2024-09-30 00:58:41,879 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,879 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:41,975 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:41,979 [test_agent_code] DEBUG: tensor([[ 0.1546,  0.4188,  0.1240,  0.1160, -0.0401, -0.0251]])
+2024-09-30 00:58:41,980 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:41,980 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,075 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,078 [test_agent_code] DEBUG: tensor([[ 0.1540,  0.4168,  0.1233,  0.1154, -0.0401, -0.0244]])
+2024-09-30 00:58:42,079 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,080 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,174 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,177 [test_agent_code] DEBUG: tensor([[ 0.1232,  0.3193,  0.0755,  0.0717, -0.0411, -0.0177]])
+2024-09-30 00:58:42,178 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,178 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,274 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,278 [test_agent_code] DEBUG: tensor([[ 0.1408,  0.3771,  0.1030,  0.0971, -0.0397, -0.0219]])
+2024-09-30 00:58:42,279 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,279 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,378 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,383 [test_agent_code] DEBUG: tensor([[ 0.1410,  0.3775,  0.1035,  0.0974, -0.0405, -0.0220]])
+2024-09-30 00:58:42,385 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,385 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,478 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,481 [test_agent_code] DEBUG: tensor([[ 0.1394,  0.3768,  0.1024,  0.0968, -0.0393, -0.0218]])
+2024-09-30 00:58:42,483 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,483 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,576 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,580 [test_agent_code] DEBUG: tensor([[ 0.1258,  0.3308,  0.0808,  0.0772, -0.0401, -0.0186]])
+2024-09-30 00:58:42,581 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,581 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,677 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,682 [test_agent_code] DEBUG: tensor([[ 0.1538,  0.4170,  0.1233,  0.1145, -0.0409, -0.0253]])
+2024-09-30 00:58:42,683 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,684 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,777 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,785 [test_agent_code] DEBUG: tensor([[ 0.1530,  0.4132,  0.1216,  0.1142, -0.0405, -0.0243]])
+2024-09-30 00:58:42,786 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,786 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,875 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,879 [test_agent_code] DEBUG: tensor([[ 0.1549,  0.4183,  0.1248,  0.1164, -0.0416, -0.0252]])
+2024-09-30 00:58:42,881 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,881 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:42,975 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:42,979 [test_agent_code] DEBUG: tensor([[ 0.1530,  0.4160,  0.1232,  0.1149, -0.0400, -0.0248]])
+2024-09-30 00:58:42,981 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:42,981 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,080 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,084 [test_agent_code] DEBUG: tensor([[ 0.1535,  0.4165,  0.1243,  0.1148, -0.0411, -0.0243]])
+2024-09-30 00:58:43,086 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,086 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,176 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,179 [test_agent_code] DEBUG: tensor([[ 0.1251,  0.3236,  0.0781,  0.0733, -0.0422, -0.0180]])
+2024-09-30 00:58:43,180 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,180 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,276 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,279 [test_agent_code] DEBUG: tensor([[ 0.1411,  0.3804,  0.1058,  0.0985, -0.0408, -0.0223]])
+2024-09-30 00:58:43,280 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,280 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,377 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,381 [test_agent_code] DEBUG: tensor([[ 0.1428,  0.3819,  0.1068,  0.0994, -0.0417, -0.0225]])
+2024-09-30 00:58:43,382 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,383 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,476 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,479 [test_agent_code] DEBUG: tensor([[ 0.1411,  0.3777,  0.1045,  0.0980, -0.0412, -0.0218]])
+2024-09-30 00:58:43,481 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,481 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,577 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,580 [test_agent_code] DEBUG: tensor([[ 0.1296,  0.3382,  0.0845,  0.0800, -0.0411, -0.0188]])
+2024-09-30 00:58:43,582 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,582 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,678 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,684 [test_agent_code] DEBUG: tensor([[ 0.1549,  0.4215,  0.1250,  0.1167, -0.0405, -0.0258]])
+2024-09-30 00:58:43,686 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,686 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,778 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,781 [test_agent_code] DEBUG: tensor([[ 0.1567,  0.4213,  0.1256,  0.1170, -0.0418, -0.0249]])
+2024-09-30 00:58:43,782 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,783 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,880 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,884 [test_agent_code] DEBUG: tensor([[ 0.1532,  0.4163,  0.1248,  0.1145, -0.0414, -0.0255]])
+2024-09-30 00:58:43,885 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,885 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:43,980 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:43,983 [test_agent_code] DEBUG: tensor([[ 0.1563,  0.4214,  0.1258,  0.1160, -0.0399, -0.0257]])
+2024-09-30 00:58:43,985 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:43,985 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,077 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,080 [test_agent_code] DEBUG: tensor([[ 0.1255,  0.3249,  0.0778,  0.0740, -0.0409, -0.0184]])
+2024-09-30 00:58:44,082 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,082 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,179 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,182 [test_agent_code] DEBUG: tensor([[ 0.1413,  0.3794,  0.1058,  0.0975, -0.0410, -0.0228]])
+2024-09-30 00:58:44,183 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,183 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,278 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,282 [test_agent_code] DEBUG: tensor([[ 0.1442,  0.3837,  0.1062,  0.0995, -0.0402, -0.0228]])
+2024-09-30 00:58:44,283 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,284 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,379 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,382 [test_agent_code] DEBUG: tensor([[ 0.1413,  0.3794,  0.1058,  0.0975, -0.0410, -0.0228]])
+2024-09-30 00:58:44,383 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,383 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,480 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,487 [test_agent_code] DEBUG: tensor([[ 0.1445,  0.3851,  0.1084,  0.1009, -0.0398, -0.0220]])
+2024-09-30 00:58:44,490 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,490 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,579 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,582 [test_agent_code] DEBUG: tensor([[ 0.1536,  0.4164,  0.1235,  0.1154, -0.0406, -0.0259]])
+2024-09-30 00:58:44,584 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,584 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,680 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,683 [test_agent_code] DEBUG: tensor([[ 0.1548,  0.4158,  0.1237,  0.1152, -0.0421, -0.0249]])
+2024-09-30 00:58:44,685 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,685 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,779 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,782 [test_agent_code] DEBUG: tensor([[ 0.1514,  0.4101,  0.1231,  0.1127, -0.0411, -0.0252]])
+2024-09-30 00:58:44,783 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,783 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,879 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,882 [test_agent_code] DEBUG: tensor([[ 0.1551,  0.4169,  0.1239,  0.1146, -0.0397, -0.0252]])
+2024-09-30 00:58:44,883 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,883 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:44,984 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:44,989 [test_agent_code] DEBUG: tensor([[ 0.1548,  0.4176,  0.1246,  0.1151, -0.0402, -0.0247]])
+2024-09-30 00:58:44,991 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:44,991 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,085 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,091 [test_agent_code] DEBUG: tensor([[ 0.1540,  0.4163,  0.1236,  0.1150, -0.0419, -0.0258]])
+2024-09-30 00:58:45,092 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,092 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,180 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,231 [test_agent_code] DEBUG: tensor([[ 0.1503,  0.4085,  0.1212,  0.1106, -0.0405, -0.0255]])
+2024-09-30 00:58:45,233 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,234 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,278 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,281 [test_agent_code] DEBUG: tensor([[ 0.1221,  0.3184,  0.0743,  0.0699, -0.0409, -0.0181]])
+2024-09-30 00:58:45,282 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,282 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,380 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,383 [test_agent_code] DEBUG: tensor([[ 0.1394,  0.3746,  0.1032,  0.0953, -0.0408, -0.0232]])
+2024-09-30 00:58:45,384 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,384 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,481 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,485 [test_agent_code] DEBUG: tensor([[ 0.1391,  0.3742,  0.1034,  0.0946, -0.0404, -0.0220]])
+2024-09-30 00:58:45,487 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,487 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,582 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,587 [test_agent_code] DEBUG: tensor([[ 0.1386,  0.3727,  0.1022,  0.0941, -0.0397, -0.0225]])
+2024-09-30 00:58:45,589 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,589 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,683 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,688 [test_agent_code] DEBUG: tensor([[ 0.1524,  0.4084,  0.1204,  0.1091, -0.0421, -0.0250]])
+2024-09-30 00:58:45,690 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,691 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,783 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,787 [test_agent_code] DEBUG: tensor([[ 0.1458,  0.3952,  0.1138,  0.1050, -0.0392, -0.0234]])
+2024-09-30 00:58:45,789 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,789 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,883 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,887 [test_agent_code] DEBUG: tensor([[ 0.1464,  0.3974,  0.1149,  0.1056, -0.0391, -0.0233]])
+2024-09-30 00:58:45,889 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,889 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:45,982 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:45,985 [test_agent_code] DEBUG: tensor([[ 0.1457,  0.3965,  0.1139,  0.1055, -0.0397, -0.0242]])
+2024-09-30 00:58:45,986 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:45,987 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,082 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,084 [test_agent_code] DEBUG: tensor([[ 0.1459,  0.3968,  0.1147,  0.1055, -0.0388, -0.0234]])
+2024-09-30 00:58:46,085 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,086 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,184 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,188 [test_agent_code] DEBUG: tensor([[ 0.1456,  0.3964,  0.1145,  0.1051, -0.0396, -0.0238]])
+2024-09-30 00:58:46,189 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,190 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,283 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,288 [test_agent_code] DEBUG: tensor([[ 0.1215,  0.3126,  0.0721,  0.0689, -0.0411, -0.0179]])
+2024-09-30 00:58:46,290 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,290 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,388 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,392 [test_agent_code] DEBUG: tensor([[ 0.1351,  0.3617,  0.0968,  0.0902, -0.0391, -0.0214]])
+2024-09-30 00:58:46,394 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,394 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,486 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,490 [test_agent_code] DEBUG: tensor([[ 0.1348,  0.3614,  0.0960,  0.0901, -0.0398, -0.0220]])
+2024-09-30 00:58:46,492 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,492 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,584 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,587 [test_agent_code] DEBUG: tensor([[ 0.1355,  0.3621,  0.0969,  0.0905, -0.0395, -0.0214]])
+2024-09-30 00:58:46,588 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,588 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,684 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,688 [test_agent_code] DEBUG: tensor([[ 0.1373,  0.3651,  0.0980,  0.0920, -0.0388, -0.0211]])
+2024-09-30 00:58:46,690 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,690 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,786 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,789 [test_agent_code] DEBUG: tensor([[ 0.1435,  0.3921,  0.1133,  0.1035, -0.0396, -0.0235]])
+2024-09-30 00:58:46,791 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,791 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,884 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,888 [test_agent_code] DEBUG: tensor([[ 0.1473,  0.4004,  0.1159,  0.1067, -0.0383, -0.0238]])
+2024-09-30 00:58:46,889 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,890 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:46,985 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:46,989 [test_agent_code] DEBUG: tensor([[ 0.1477,  0.4010,  0.1164,  0.1068, -0.0386, -0.0235]])
+2024-09-30 00:58:46,990 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:46,990 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,085 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,088 [test_agent_code] DEBUG: tensor([[ 0.1470,  0.3999,  0.1150,  0.1063, -0.0403, -0.0241]])
+2024-09-30 00:58:47,089 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,090 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,184 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,187 [test_agent_code] DEBUG: tensor([[ 0.1439,  0.3938,  0.1127,  0.1030, -0.0393, -0.0232]])
+2024-09-30 00:58:47,188 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,188 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,284 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,287 [test_agent_code] DEBUG: tensor([[ 0.1467,  0.3978,  0.1147,  0.1059, -0.0396, -0.0235]])
+2024-09-30 00:58:47,289 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,289 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,385 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,390 [test_agent_code] DEBUG: tensor([[ 0.1489,  0.3987,  0.1171,  0.1081, -0.0376, -0.0238]])
+2024-09-30 00:58:47,391 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,392 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,484 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,486 [test_agent_code] DEBUG: tensor([[ 0.1492,  0.4033,  0.1172,  0.1086, -0.0402, -0.0244]])
+2024-09-30 00:58:47,487 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,487 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,585 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,588 [test_agent_code] DEBUG: tensor([[ 0.1243,  0.3195,  0.0753,  0.0722, -0.0409, -0.0186]])
+2024-09-30 00:58:47,589 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,589 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,685 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,688 [test_agent_code] DEBUG: tensor([[ 0.1412,  0.3728,  0.1025,  0.0960, -0.0389, -0.0223]])
+2024-09-30 00:58:47,690 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,690 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,787 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,790 [test_agent_code] DEBUG: tensor([[ 0.1394,  0.3692,  0.1012,  0.0943, -0.0404, -0.0216]])
+2024-09-30 00:58:47,791 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,791 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,888 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,891 [test_agent_code] DEBUG: tensor([[ 0.1412,  0.3728,  0.1025,  0.0960, -0.0389, -0.0223]])
+2024-09-30 00:58:47,893 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,893 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:47,988 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:47,991 [test_agent_code] DEBUG: tensor([[ 0.1447,  0.3833,  0.1090,  0.1001, -0.0379, -0.0230]])
+2024-09-30 00:58:47,993 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:47,993 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,087 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,090 [test_agent_code] DEBUG: tensor([[ 0.1450,  0.3925,  0.1128,  0.1036, -0.0409, -0.0231]])
+2024-09-30 00:58:48,092 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,092 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,186 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,189 [test_agent_code] DEBUG: tensor([[ 0.1467,  0.3947,  0.1146,  0.1053, -0.0390, -0.0236]])
+2024-09-30 00:58:48,191 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,191 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,287 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,290 [test_agent_code] DEBUG: tensor([[ 0.1450,  0.3925,  0.1128,  0.1036, -0.0409, -0.0231]])
+2024-09-30 00:58:48,292 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,292 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,389 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,393 [test_agent_code] DEBUG: tensor([[ 0.1213,  0.3112,  0.0721,  0.0688, -0.0416, -0.0172]])
+2024-09-30 00:58:48,395 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,396 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,489 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,513 [test_agent_code] DEBUG: tensor([[ 0.1363,  0.3611,  0.0978,  0.0899, -0.0399, -0.0211]])
+2024-09-30 00:58:48,514 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,514 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,588 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,591 [test_agent_code] DEBUG: tensor([[ 0.1355,  0.3611,  0.0971,  0.0902, -0.0409, -0.0213]])
+2024-09-30 00:58:48,593 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,593 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,688 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,691 [test_agent_code] DEBUG: tensor([[ 0.1353,  0.3604,  0.0968,  0.0891, -0.0412, -0.0210]])
+2024-09-30 00:58:48,692 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,692 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,789 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,791 [test_agent_code] DEBUG: tensor([[ 0.1380,  0.3644,  0.0986,  0.0917, -0.0389, -0.0220]])
+2024-09-30 00:58:48,792 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,792 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,885 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,902 [test_agent_code] DEBUG: tensor([[ 0.1441,  0.3950,  0.1139,  0.1039, -0.0416, -0.0234]])
+2024-09-30 00:58:48,903 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,903 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:48,986 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:48,988 [test_agent_code] DEBUG: tensor([[ 0.1441,  0.3968,  0.1135,  0.1044, -0.0411, -0.0241]])
+2024-09-30 00:58:48,989 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:48,989 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,086 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,088 [test_agent_code] DEBUG: tensor([[ 0.1441,  0.3950,  0.1139,  0.1039, -0.0416, -0.0234]])
+2024-09-30 00:58:49,089 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,089 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,186 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,188 [test_agent_code] DEBUG: tensor([[ 0.1207,  0.3145,  0.0730,  0.0695, -0.0420, -0.0185]])
+2024-09-30 00:58:49,189 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,189 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,287 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,289 [test_agent_code] DEBUG: tensor([[ 0.1347,  0.3663,  0.0985,  0.0901, -0.0413, -0.0224]])
+2024-09-30 00:58:49,290 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,290 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,390 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,394 [test_agent_code] DEBUG: tensor([[ 0.1361,  0.3637,  0.0985,  0.0909, -0.0403, -0.0218]])
+2024-09-30 00:58:49,395 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,395 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,488 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,492 [test_agent_code] DEBUG: tensor([[ 0.1352,  0.3622,  0.0981,  0.0899, -0.0419, -0.0209]])
+2024-09-30 00:58:49,493 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,494 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,589 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,592 [test_agent_code] DEBUG: tensor([[ 0.1475,  0.3895,  0.1104,  0.1017, -0.0391, -0.0234]])
+2024-09-30 00:58:49,594 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,594 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,689 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,692 [test_agent_code] DEBUG: tensor([[ 0.1447,  0.3908,  0.1110,  0.1024, -0.0419, -0.0239]])
+2024-09-30 00:58:49,694 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,694 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,790 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,793 [test_agent_code] DEBUG: tensor([[ 0.1442,  0.3872,  0.1107,  0.1026, -0.0401, -0.0233]])
+2024-09-30 00:58:49,794 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,794 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,891 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,897 [test_agent_code] DEBUG: tensor([[ 0.1221,  0.3134,  0.0730,  0.0703, -0.0408, -0.0180]])
+2024-09-30 00:58:49,899 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,899 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:49,989 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:49,992 [test_agent_code] DEBUG: tensor([[ 0.1348,  0.3578,  0.0957,  0.0885, -0.0408, -0.0213]])
+2024-09-30 00:58:49,994 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:49,994 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,090 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,094 [test_agent_code] DEBUG: tensor([[ 0.1348,  0.3572,  0.0944,  0.0896, -0.0398, -0.0222]])
+2024-09-30 00:58:50,095 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,095 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,189 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,192 [test_agent_code] DEBUG: tensor([[ 0.1352,  0.3587,  0.0952,  0.0914, -0.0395, -0.0225]])
+2024-09-30 00:58:50,194 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,194 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,292 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,298 [test_agent_code] DEBUG: tensor([[ 0.1430,  0.3794,  0.1065,  0.0981, -0.0364, -0.0217]])
+2024-09-30 00:58:50,301 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,301 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,391 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,395 [test_agent_code] DEBUG: tensor([[ 0.1402,  0.3806,  0.1066,  0.0996, -0.0440, -0.0232]])
+2024-09-30 00:58:50,397 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,397 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,490 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,494 [test_agent_code] DEBUG: tensor([[ 0.1405,  0.3811,  0.1063,  0.1003, -0.0426, -0.0230]])
+2024-09-30 00:58:50,495 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,495 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,591 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,595 [test_agent_code] DEBUG: tensor([[ 0.1402,  0.3806,  0.1066,  0.0996, -0.0440, -0.0232]])
+2024-09-30 00:58:50,596 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,597 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,693 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,696 [test_agent_code] DEBUG: tensor([[ 0.1196,  0.3090,  0.0717,  0.0683, -0.0433, -0.0178]])
+2024-09-30 00:58:50,697 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,697 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,791 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,794 [test_agent_code] DEBUG: tensor([[ 0.1317,  0.3541,  0.0927,  0.0874, -0.0428, -0.0213]])
+2024-09-30 00:58:50,796 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,796 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,891 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,894 [test_agent_code] DEBUG: tensor([[ 0.1306,  0.3493,  0.0911,  0.0862, -0.0436, -0.0209]])
+2024-09-30 00:58:50,895 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,895 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:50,992 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:50,995 [test_agent_code] DEBUG: tensor([[ 0.1311,  0.3513,  0.0922,  0.0865, -0.0431, -0.0213]])
+2024-09-30 00:58:50,996 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:50,996 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,093 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,096 [test_agent_code] DEBUG: tensor([[ 0.1360,  0.3648,  0.0954,  0.0951, -0.0422, -0.0236]])
+2024-09-30 00:58:51,097 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,097 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,192 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,195 [test_agent_code] DEBUG: tensor([[ 0.1402,  0.3793,  0.1057,  0.0999, -0.0434, -0.0234]])
+2024-09-30 00:58:51,197 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,197 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,293 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,297 [test_agent_code] DEBUG: tensor([[ 0.1417,  0.3794,  0.1066,  0.0992, -0.0427, -0.0227]])
+2024-09-30 00:58:51,299 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,299 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,392 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,395 [test_agent_code] DEBUG: tensor([[ 0.1214,  0.3101,  0.0715,  0.0686, -0.0416, -0.0174]])
+2024-09-30 00:58:51,396 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,397 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,493 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,496 [test_agent_code] DEBUG: tensor([[ 0.1327,  0.3521,  0.0930,  0.0878, -0.0419, -0.0207]])
+2024-09-30 00:58:51,498 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,498 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,592 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,595 [test_agent_code] DEBUG: tensor([[ 0.1325,  0.3483,  0.0924,  0.0856, -0.0421, -0.0194]])
+2024-09-30 00:58:51,597 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,597 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,694 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,698 [test_agent_code] DEBUG: tensor([[ 0.1330,  0.3519,  0.0936,  0.0875, -0.0420, -0.0202]])
+2024-09-30 00:58:51,700 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,700 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,793 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,796 [test_agent_code] DEBUG: tensor([[ 0.1377,  0.3632,  0.1004,  0.0916, -0.0400, -0.0201]])
+2024-09-30 00:58:51,798 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,799 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,893 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,897 [test_agent_code] DEBUG: tensor([[ 0.1400,  0.3815,  0.1074,  0.1000, -0.0445, -0.0245]])
+2024-09-30 00:58:51,898 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,898 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:51,993 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:51,996 [test_agent_code] DEBUG: tensor([[ 0.1391,  0.3794,  0.1051,  0.0995, -0.0442, -0.0242]])
+2024-09-30 00:58:51,998 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:51,998 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,093 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,096 [test_agent_code] DEBUG: tensor([[ 0.1411,  0.3820,  0.1071,  0.1001, -0.0432, -0.0239]])
+2024-09-30 00:58:52,097 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,097 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,193 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,196 [test_agent_code] DEBUG: tensor([[ 0.1412,  0.3795,  0.1069,  0.1000, -0.0433, -0.0239]])
+2024-09-30 00:58:52,198 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,198 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,297 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,300 [test_agent_code] DEBUG: tensor([[ 0.1213,  0.3101,  0.0723,  0.0690, -0.0426, -0.0181]])
+2024-09-30 00:58:52,302 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,302 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,396 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,400 [test_agent_code] DEBUG: tensor([[ 0.1326,  0.3517,  0.0925,  0.0872, -0.0425, -0.0215]])
+2024-09-30 00:58:52,402 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,402 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,496 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,499 [test_agent_code] DEBUG: tensor([[ 0.1333,  0.3537,  0.0933,  0.0882, -0.0417, -0.0217]])
+2024-09-30 00:58:52,501 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,501 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,595 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,599 [test_agent_code] DEBUG: tensor([[ 0.1326,  0.3517,  0.0925,  0.0872, -0.0425, -0.0215]])
+2024-09-30 00:58:52,600 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,601 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,695 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,699 [test_agent_code] DEBUG: tensor([[ 0.1237,  0.3231,  0.0778,  0.0747, -0.0414, -0.0196]])
+2024-09-30 00:58:52,700 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,701 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,795 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,798 [test_agent_code] DEBUG: tensor([[ 0.1404,  0.3821,  0.1071,  0.1003, -0.0453, -0.0254]])
+2024-09-30 00:58:52,799 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,799 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,895 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,898 [test_agent_code] DEBUG: tensor([[ 0.1412,  0.3836,  0.1079,  0.1012, -0.0432, -0.0247]])
+2024-09-30 00:58:52,899 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:52,899 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:52,996 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:52,998 [test_agent_code] DEBUG: tensor([[ 0.1416,  0.3834,  0.1079,  0.1011, -0.0435, -0.0243]])
+2024-09-30 00:58:53,000 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,000 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,095 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,098 [test_agent_code] DEBUG: tensor([[ 0.1413,  0.3803,  0.1072,  0.1008, -0.0435, -0.0241]])
+2024-09-30 00:58:53,100 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,100 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,196 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,199 [test_agent_code] DEBUG: tensor([[ 0.1409,  0.3813,  0.1068,  0.1011, -0.0443, -0.0249]])
+2024-09-30 00:58:53,200 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,200 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,296 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,299 [test_agent_code] DEBUG: tensor([[ 0.1396,  0.3769,  0.1040,  0.0972, -0.0439, -0.0238]])
+2024-09-30 00:58:53,301 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,302 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,396 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,399 [test_agent_code] DEBUG: tensor([[ 0.1411,  0.3817,  0.1061,  0.0992, -0.0431, -0.0241]])
+2024-09-30 00:58:53,401 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,401 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,495 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,499 [test_agent_code] DEBUG: tensor([[ 0.1406,  0.3818,  0.1070,  0.0995, -0.0440, -0.0246]])
+2024-09-30 00:58:53,500 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,501 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,599 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,611 [test_agent_code] DEBUG: tensor([[ 0.1398,  0.3786,  0.1050,  0.0982, -0.0446, -0.0242]])
+2024-09-30 00:58:53,612 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,612 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,702 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,705 [test_agent_code] DEBUG: tensor([[ 0.1411,  0.3803,  0.1053,  0.0993, -0.0442, -0.0243]])
+2024-09-30 00:58:53,707 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,707 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,800 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,803 [test_agent_code] DEBUG: tensor([[ 0.1414,  0.3816,  0.1067,  0.0992, -0.0439, -0.0233]])
+2024-09-30 00:58:53,805 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,805 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:53,897 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:53,900 [test_agent_code] DEBUG: tensor([[ 0.1218,  0.3116,  0.0719,  0.0695, -0.0423, -0.0178]])
+2024-09-30 00:58:53,901 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:53,901 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,005 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,011 [test_agent_code] DEBUG: tensor([[ 0.1339,  0.3555,  0.0931,  0.0885, -0.0429, -0.0217]])
+2024-09-30 00:58:54,013 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,013 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,106 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,112 [test_agent_code] DEBUG: tensor([[ 0.1326,  0.3525,  0.0921,  0.0865, -0.0434, -0.0214]])
+2024-09-30 00:58:54,114 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,114 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,207 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,214 [test_agent_code] DEBUG: tensor([[ 0.1341,  0.3542,  0.0931,  0.0873, -0.0433, -0.0215]])
+2024-09-30 00:58:54,217 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,218 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,305 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,314 [test_agent_code] DEBUG: tensor([[ 0.1376,  0.3727,  0.1013,  0.0942, -0.0435, -0.0229]])
+2024-09-30 00:58:54,317 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,317 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,401 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,409 [test_agent_code] DEBUG: tensor([[ 0.1397,  0.3736,  0.1019,  0.0977, -0.0436, -0.0239]])
+2024-09-30 00:58:54,411 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,411 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,500 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,508 [test_agent_code] DEBUG: tensor([[ 0.1385,  0.3728,  0.1009,  0.0958, -0.0430, -0.0240]])
+2024-09-30 00:58:54,510 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,511 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,607 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,614 [test_agent_code] DEBUG: tensor([[ 0.1394,  0.3754,  0.1023,  0.0976, -0.0429, -0.0239]])
+2024-09-30 00:58:54,617 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,617 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,717 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,725 [test_agent_code] DEBUG: tensor([[ 0.1421,  0.3802,  0.1044,  0.0983, -0.0448, -0.0251]])
+2024-09-30 00:58:54,729 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,729 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,812 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,821 [test_agent_code] DEBUG: tensor([[ 0.1409,  0.3805,  0.1049,  0.0994, -0.0444, -0.0257]])
+2024-09-30 00:58:54,824 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,824 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,904 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:54,909 [test_agent_code] DEBUG: tensor([[ 0.1356,  0.3659,  0.0965,  0.0937, -0.0432, -0.0239]])
+2024-09-30 00:58:54,911 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:54,911 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:54,999 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,002 [test_agent_code] DEBUG: tensor([[ 0.1189,  0.3053,  0.0682,  0.0673, -0.0429, -0.0184]])
+2024-09-30 00:58:55,004 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,004 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,100 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,104 [test_agent_code] DEBUG: tensor([[ 0.1311,  0.3496,  0.0880,  0.0862, -0.0439, -0.0229]])
+2024-09-30 00:58:55,106 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,106 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,203 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,206 [test_agent_code] DEBUG: tensor([[ 0.1306,  0.3470,  0.0870,  0.0841, -0.0437, -0.0223]])
+2024-09-30 00:58:55,207 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,207 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,300 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,304 [test_agent_code] DEBUG: tensor([[ 0.1292,  0.3434,  0.0858,  0.0843, -0.0432, -0.0224]])
+2024-09-30 00:58:55,305 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,305 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,402 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,407 [test_agent_code] DEBUG: tensor([[ 0.1454,  0.4022,  0.1118,  0.1052, -0.0455, -0.0262]])
+2024-09-30 00:58:55,408 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,408 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,501 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,505 [test_agent_code] DEBUG: tensor([[ 0.1329,  0.3601,  0.0950,  0.0891, -0.0441, -0.0231]])
+2024-09-30 00:58:55,507 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,507 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,601 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,605 [test_agent_code] DEBUG: tensor([[ 0.1364,  0.3656,  0.0979,  0.0919, -0.0446, -0.0227]])
+2024-09-30 00:58:55,606 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,607 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,701 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,704 [test_agent_code] DEBUG: tensor([[ 0.1341,  0.3637,  0.0976,  0.0907, -0.0445, -0.0229]])
+2024-09-30 00:58:55,706 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,706 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,805 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,809 [test_agent_code] DEBUG: tensor([[ 0.1340,  0.3624,  0.0961,  0.0907, -0.0436, -0.0231]])
+2024-09-30 00:58:55,811 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,811 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:55,909 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:55,914 [test_agent_code] DEBUG: tensor([[ 0.1348,  0.3654,  0.0982,  0.0916, -0.0441, -0.0238]])
+2024-09-30 00:58:55,916 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:55,916 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,007 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,013 [test_agent_code] DEBUG: tensor([[ 0.1192,  0.3071,  0.0694,  0.0663, -0.0429, -0.0188]])
+2024-09-30 00:58:56,015 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,015 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,103 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,106 [test_agent_code] DEBUG: tensor([[ 0.1271,  0.3402,  0.0853,  0.0808, -0.0432, -0.0218]])
+2024-09-30 00:58:56,107 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,107 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,204 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,208 [test_agent_code] DEBUG: tensor([[ 0.1294,  0.3433,  0.0882,  0.0819, -0.0433, -0.0225]])
+2024-09-30 00:58:56,210 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,210 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,304 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,309 [test_agent_code] DEBUG: tensor([[ 0.1277,  0.3429,  0.0872,  0.0813, -0.0436, -0.0218]])
+2024-09-30 00:58:56,311 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,311 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,404 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,408 [test_agent_code] DEBUG: tensor([[ 0.1249,  0.3214,  0.0755,  0.0720, -0.0428, -0.0197]])
+2024-09-30 00:58:56,410 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,411 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,505 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,508 [test_agent_code] DEBUG: tensor([[ 0.1336,  0.3606,  0.0945,  0.0904, -0.0438, -0.0235]])
+2024-09-30 00:58:56,509 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,509 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,605 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,609 [test_agent_code] DEBUG: tensor([[ 0.1353,  0.3625,  0.0967,  0.0917, -0.0446, -0.0234]])
+2024-09-30 00:58:56,611 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,611 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,705 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,708 [test_agent_code] DEBUG: tensor([[ 0.1355,  0.3670,  0.0984,  0.0919, -0.0431, -0.0226]])
+2024-09-30 00:58:56,709 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,709 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,803 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,806 [test_agent_code] DEBUG: tensor([[ 0.1362,  0.3649,  0.0969,  0.0915, -0.0443, -0.0236]])
+2024-09-30 00:58:56,807 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,807 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:56,905 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:56,912 [test_agent_code] DEBUG: tensor([[ 0.1209,  0.3082,  0.0688,  0.0671, -0.0424, -0.0188]])
+2024-09-30 00:58:56,915 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:56,915 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,004 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,007 [test_agent_code] DEBUG: tensor([[ 0.1296,  0.3447,  0.0866,  0.0818, -0.0426, -0.0210]])
+2024-09-30 00:58:57,008 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,009 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,106 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,110 [test_agent_code] DEBUG: tensor([[ 0.1298,  0.3438,  0.0867,  0.0818, -0.0438, -0.0219]])
+2024-09-30 00:58:57,111 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,111 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,206 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,210 [test_agent_code] DEBUG: tensor([[ 0.1296,  0.3447,  0.0866,  0.0818, -0.0426, -0.0210]])
+2024-09-30 00:58:57,211 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,211 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,306 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,309 [test_agent_code] DEBUG: tensor([[ 0.1299,  0.3516,  0.0895,  0.0847, -0.0441, -0.0221]])
+2024-09-30 00:58:57,311 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,311 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,406 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,410 [test_agent_code] DEBUG: tensor([[ 0.1362,  0.3618,  0.0958,  0.0917, -0.0431, -0.0231]])
+2024-09-30 00:58:57,412 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,412 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,508 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,511 [test_agent_code] DEBUG: tensor([[ 0.1350,  0.3621,  0.0957,  0.0905, -0.0440, -0.0237]])
+2024-09-30 00:58:57,513 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,513 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,607 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,613 [test_agent_code] DEBUG: tensor([[ 0.1361,  0.3657,  0.0970,  0.0914, -0.0433, -0.0231]])
+2024-09-30 00:58:57,614 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,615 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,706 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,709 [test_agent_code] DEBUG: tensor([[ 0.1375,  0.3646,  0.0959,  0.0920, -0.0435, -0.0237]])
+2024-09-30 00:58:57,711 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,711 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,807 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,811 [test_agent_code] DEBUG: tensor([[ 0.1332,  0.3561,  0.0928,  0.0899, -0.0444, -0.0227]])
+2024-09-30 00:58:57,812 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,812 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:57,906 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:57,909 [test_agent_code] DEBUG: tensor([[ 0.1365,  0.3660,  0.0972,  0.0928, -0.0436, -0.0236]])
+2024-09-30 00:58:57,911 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:57,911 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,008 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,017 [test_agent_code] DEBUG: tensor([[ 0.1207,  0.3093,  0.0699,  0.0681, -0.0432, -0.0184]])
+2024-09-30 00:58:58,019 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,019 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,109 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,115 [test_agent_code] DEBUG: tensor([[ 0.1284,  0.3409,  0.0845,  0.0820, -0.0433, -0.0213]])
+2024-09-30 00:58:58,117 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,117 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,207 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,209 [test_agent_code] DEBUG: tensor([[ 0.1310,  0.3489,  0.0885,  0.0837, -0.0439, -0.0224]])
+2024-09-30 00:58:58,211 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,211 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,307 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,310 [test_agent_code] DEBUG: tensor([[ 0.1305,  0.3460,  0.0876,  0.0838, -0.0433, -0.0215]])
+2024-09-30 00:58:58,311 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,311 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,408 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,413 [test_agent_code] DEBUG: tensor([[ 0.1328,  0.3591,  0.0915,  0.0886, -0.0446, -0.0245]])
+2024-09-30 00:58:58,415 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,415 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,510 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,516 [test_agent_code] DEBUG: tensor([[ 0.1337,  0.3570,  0.0945,  0.0892, -0.0428, -0.0219]])
+2024-09-30 00:58:58,518 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,518 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,608 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,613 [test_agent_code] DEBUG: tensor([[ 0.1331,  0.3572,  0.0944,  0.0884, -0.0436, -0.0224]])
+2024-09-30 00:58:58,615 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,615 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,709 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,713 [test_agent_code] DEBUG: tensor([[ 0.1313,  0.3489,  0.0900,  0.0872, -0.0435, -0.0213]])
+2024-09-30 00:58:58,714 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,715 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,809 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,812 [test_agent_code] DEBUG: tensor([[ 0.1328,  0.3506,  0.0920,  0.0869, -0.0431, -0.0211]])
+2024-09-30 00:58:58,813 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,813 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:58,910 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:58,915 [test_agent_code] DEBUG: tensor([[ 0.1343,  0.3574,  0.0934,  0.0902, -0.0435, -0.0226]])
+2024-09-30 00:58:58,917 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:58,917 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,010 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,017 [test_agent_code] DEBUG: tensor([[ 0.1346,  0.3563,  0.0933,  0.0896, -0.0437, -0.0228]])
+2024-09-30 00:58:59,020 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,021 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,109 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,112 [test_agent_code] DEBUG: tensor([[ 0.1199,  0.3052,  0.0687,  0.0668, -0.0431, -0.0182]])
+2024-09-30 00:58:59,113 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,113 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,215 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,222 [test_agent_code] DEBUG: tensor([[ 0.1296,  0.3398,  0.0846,  0.0824, -0.0434, -0.0217]])
+2024-09-30 00:58:59,224 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,224 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,315 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,321 [test_agent_code] DEBUG: tensor([[ 0.1279,  0.3341,  0.0815,  0.0793, -0.0423, -0.0204]])
+2024-09-30 00:58:59,323 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,324 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,414 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,417 [test_agent_code] DEBUG: tensor([[ 0.1293,  0.3375,  0.0838,  0.0808, -0.0441, -0.0210]])
+2024-09-30 00:58:59,419 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,419 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,512 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,518 [test_agent_code] DEBUG: tensor([[ 0.1282,  0.3389,  0.0851,  0.0820, -0.0432, -0.0211]])
+2024-09-30 00:58:59,520 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,521 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,613 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,620 [test_agent_code] DEBUG: tensor([[ 0.1340,  0.3556,  0.0935,  0.0893, -0.0442, -0.0219]])
+2024-09-30 00:58:59,622 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,622 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,711 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,715 [test_agent_code] DEBUG: tensor([[ 0.1332,  0.3514,  0.0904,  0.0876, -0.0421, -0.0209]])
+2024-09-30 00:58:59,717 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,717 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,811 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,816 [test_agent_code] DEBUG: tensor([[ 0.1340,  0.3556,  0.0935,  0.0893, -0.0442, -0.0219]])
+2024-09-30 00:58:59,819 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,819 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:58:59,911 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:58:59,917 [test_agent_code] DEBUG: tensor([[ 0.1198,  0.3048,  0.0690,  0.0667, -0.0436, -0.0176]])
+2024-09-30 00:58:59,919 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:58:59,919 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,010 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,013 [test_agent_code] DEBUG: tensor([[ 0.1284,  0.3341,  0.0817,  0.0792, -0.0433, -0.0191]])
+2024-09-30 00:59:00,014 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,015 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,110 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,114 [test_agent_code] DEBUG: tensor([[ 0.1294,  0.3378,  0.0843,  0.0820, -0.0436, -0.0209]])
+2024-09-30 00:59:00,115 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,115 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,212 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,217 [test_agent_code] DEBUG: tensor([[ 0.1280,  0.3333,  0.0831,  0.0790, -0.0435, -0.0197]])
+2024-09-30 00:59:00,219 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,219 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,311 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,317 [test_agent_code] DEBUG: tensor([[ 0.1328,  0.3522,  0.0893,  0.0849, -0.0449, -0.0225]])
+2024-09-30 00:59:00,319 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,319 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,412 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,416 [test_agent_code] DEBUG: tensor([[ 0.1307,  0.3446,  0.0897,  0.0849, -0.0421, -0.0192]])
+2024-09-30 00:59:00,418 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,418 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,512 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,518 [test_agent_code] DEBUG: tensor([[ 0.1323,  0.3483,  0.0897,  0.0877, -0.0422, -0.0211]])
+2024-09-30 00:59:00,521 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,521 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,616 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,622 [test_agent_code] DEBUG: tensor([[ 0.1289,  0.3424,  0.0878,  0.0825, -0.0436, -0.0196]])
+2024-09-30 00:59:00,624 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,624 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,713 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,719 [test_agent_code] DEBUG: tensor([[ 0.1175,  0.2989,  0.0671,  0.0637, -0.0435, -0.0164]])
+2024-09-30 00:59:00,721 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,721 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,813 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,820 [test_agent_code] DEBUG: tensor([[ 0.1240,  0.3250,  0.0788,  0.0758, -0.0435, -0.0189]])
+2024-09-30 00:59:00,822 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,823 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:00,913 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:00,918 [test_agent_code] DEBUG: tensor([[ 0.1242,  0.3244,  0.0798,  0.0747, -0.0433, -0.0176]])
+2024-09-30 00:59:00,919 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:00,920 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,013 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,017 [test_agent_code] DEBUG: tensor([[ 0.1240,  0.3250,  0.0788,  0.0758, -0.0435, -0.0189]])
+2024-09-30 00:59:01,019 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,019 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,112 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,116 [test_agent_code] DEBUG: tensor([[ 0.1289,  0.3417,  0.0877,  0.0842, -0.0428, -0.0191]])
+2024-09-30 00:59:01,117 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,117 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,213 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,217 [test_agent_code] DEBUG: tensor([[ 0.1286,  0.3403,  0.0864,  0.0836, -0.0423, -0.0197]])
+2024-09-30 00:59:01,218 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,219 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,312 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,315 [test_agent_code] DEBUG: tensor([[ 0.1296,  0.3422,  0.0880,  0.0835, -0.0419, -0.0193]])
+2024-09-30 00:59:01,316 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,316 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,413 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,416 [test_agent_code] DEBUG: tensor([[ 0.1307,  0.3456,  0.0883,  0.0864, -0.0418, -0.0211]])
+2024-09-30 00:59:01,418 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,418 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,512 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,520 [test_agent_code] DEBUG: tensor([[ 0.1312,  0.3471,  0.0892,  0.0857, -0.0423, -0.0206]])
+2024-09-30 00:59:01,522 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,522 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,615 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,621 [test_agent_code] DEBUG: tensor([[ 0.1285,  0.3413,  0.0875,  0.0832, -0.0419, -0.0208]])
+2024-09-30 00:59:01,623 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,624 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,715 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,719 [test_agent_code] DEBUG: tensor([[ 0.1176,  0.2983,  0.0670,  0.0644, -0.0427, -0.0174]])
+2024-09-30 00:59:01,721 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,721 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,813 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,817 [test_agent_code] DEBUG: tensor([[ 0.1254,  0.3282,  0.0804,  0.0772, -0.0425, -0.0202]])
+2024-09-30 00:59:01,820 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,820 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:01,915 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:01,918 [test_agent_code] DEBUG: tensor([[ 0.1240,  0.3256,  0.0789,  0.0770, -0.0419, -0.0201]])
+2024-09-30 00:59:01,919 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:01,920 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,015 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,019 [test_agent_code] DEBUG: tensor([[ 0.1229,  0.3215,  0.0770,  0.0746, -0.0411, -0.0189]])
+2024-09-30 00:59:02,021 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,021 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,116 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,121 [test_agent_code] DEBUG: tensor([[ 0.1218,  0.3176,  0.0744,  0.0717, -0.0415, -0.0193]])
+2024-09-30 00:59:02,123 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,123 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,215 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,218 [test_agent_code] DEBUG: tensor([[ 0.1277,  0.3400,  0.0857,  0.0835, -0.0435, -0.0200]])
+2024-09-30 00:59:02,220 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,220 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,316 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,320 [test_agent_code] DEBUG: tensor([[ 0.1279,  0.3400,  0.0856,  0.0827, -0.0427, -0.0206]])
+2024-09-30 00:59:02,322 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,322 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,415 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,419 [test_agent_code] DEBUG: tensor([[ 0.1263,  0.3362,  0.0845,  0.0809, -0.0429, -0.0198]])
+2024-09-30 00:59:02,420 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,421 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,516 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,520 [test_agent_code] DEBUG: tensor([[ 0.1153,  0.2943,  0.0655,  0.0633, -0.0427, -0.0167]])
+2024-09-30 00:59:02,522 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,522 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,615 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,618 [test_agent_code] DEBUG: tensor([[ 0.1220,  0.3215,  0.0771,  0.0743, -0.0425, -0.0192]])
+2024-09-30 00:59:02,619 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,620 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,723 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,729 [test_agent_code] DEBUG: tensor([[ 0.1212,  0.3180,  0.0767,  0.0738, -0.0429, -0.0190]])
+2024-09-30 00:59:02,731 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,731 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,817 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,834 [test_agent_code] DEBUG: tensor([[ 0.1214,  0.3183,  0.0765,  0.0739, -0.0426, -0.0183]])
+2024-09-30 00:59:02,837 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,837 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:02,913 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:02,916 [test_agent_code] DEBUG: tensor([[ 0.1199,  0.3082,  0.0709,  0.0698, -0.0427, -0.0183]])
+2024-09-30 00:59:02,918 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:02,918 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:03,018 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:03,023 [test_agent_code] DEBUG: tensor([[ 0.1278,  0.3378,  0.0857,  0.0832, -0.0432, -0.0202]])
+2024-09-30 00:59:03,025 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:03,025 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:03,115 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:03,137 [test_agent_code] DEBUG: tensor([[ 0.1273,  0.3365,  0.0846,  0.0821, -0.0434, -0.0202]])
+2024-09-30 00:59:03,140 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:03,140 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:03,213 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:03,216 [test_agent_code] DEBUG: tensor([[ 0.1161,  0.2954,  0.0652,  0.0640, -0.0432, -0.0170]])
+2024-09-30 00:59:03,217 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:03,217 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:03,314 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:03,317 [test_agent_code] DEBUG: tensor([[ 0.1227,  0.3201,  0.0772,  0.0755, -0.0433, -0.0192]])
+2024-09-30 00:59:03,319 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:03,319 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:03,416 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:03,419 [test_agent_code] DEBUG: tensor([[ 0.1215,  0.3179,  0.0757,  0.0738, -0.0433, -0.0194]])
+2024-09-30 00:59:03,421 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:03,421 [test_agent_code] DEBUG: RIGHT
+2024-09-30 00:59:03,517 [test_agent_code] DEBUG: ---------------Querying model for action (exploitation).-------------
+2024-09-30 00:59:03,528 [test_agent_code] DEBUG: tensor([[ 0.1227,  0.3201,  0.0772,  0.0755, -0.0433, -0.0192]])
+2024-09-30 00:59:03,530 [test_agent_code] DEBUG: -----end of turn------
+2024-09-30 00:59:03,530 [test_agent_code] DEBUG: RIGHT

@@ -5,7 +5,6 @@ from typing import List
 import torch
 import torch.nn.functional as F
 import random
-
 import events
 import events as e
 from .dqn import DQN, n_actions
@@ -13,6 +12,7 @@ from .data import create_input
 # This is only an example!
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
 # Hyper parameters -- DO modify
 TRANSITION_HISTORY_SIZE = 5  # keep only ... last transitions
@@ -84,7 +84,12 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         new_state_features = create_input(new_game_state)
 
         # Create a transition and store it
-        self.transitions.append(Transition(old_state_features, self_action, new_state_features, reward))
+        # Convert the action to an index
+        action_idx = ACTIONS.index(self_action)
+
+        # Append the transition (s, a, r, s') to the replay buffer
+        self.replay_buffer.append((old_state_features, action_idx, reward, new_state_features, 0))  # 0 for 'done'
+
 
        
 def train(self):
